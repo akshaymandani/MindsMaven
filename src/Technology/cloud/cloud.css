@@ -1,0 +1,35 @@
+.cloud-body {
+    width: 100%;
+}
+
+.cloud-main {
+    width: 95%;
+    margin: auto;
+}
+
+.cloud-mainText {
+    border-bottom: 2px solid #F6F6F6;
+}
+
+.cloud-mainText h1 {
+    text-align: left;
+}
+
+.cloud-submain {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.cloud-submain div {
+    cursor: pointer;
+    text-align: center;
+}
+
+.cloud-submain div img {
+    width: 100px;
+    height: 100px;
+    aspect-ratio: 1/1;
+    object-fit: contain;
+}

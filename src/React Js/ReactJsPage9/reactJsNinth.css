@@ -1,0 +1,35 @@
+.rjn-body {
+    width: 100%;
+}
+
+.rjn-main {
+    width: 90%;
+    margin: auto;
+}
+
+.rjn-title {
+    text-align: center;
+}
+
+.rjn-content {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+    gap: 50px 40px;
+}
+
+.rjn-content div {
+    position: relative;
+    width: 575px;
+    /* width: 50%; */
+    padding-right: 30px;
+    padding-left: 20px;
+    /* margin-bottom: 46px; */
+}
+
+/* @media screen and (min-width: 768px) {
+    .rjn-content div {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+} */

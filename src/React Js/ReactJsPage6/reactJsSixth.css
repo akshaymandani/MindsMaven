@@ -1,0 +1,37 @@
+.rjsi-body {
+    width: 100%;
+}
+
+.rjsi-main {
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.rjsi-title {
+    /* width: 70%; */
+    text-align: center;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.rjsi-title h1 {
+    font-size: 36px;
+}
+
+.rjsi-title h1 span {
+    color: #d96122;
+}
+
+.rjsi-title p {
+    color: #2b2d2d;
+    font-size: 20px;
+}
+
+.rjsi-content {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}

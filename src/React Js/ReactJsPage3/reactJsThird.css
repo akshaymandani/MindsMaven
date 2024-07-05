@@ -1,0 +1,149 @@
+.rjt-body {
+    width: 100%;
+}
+
+.rjt-main {
+    width: 75%;
+    margin: auto;
+}
+
+.rjt-top {
+    width: 70%;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.rjt-top h1 {
+    font-size: 36px;
+}
+
+.rjt-top h1 span {
+    color: #d96122;
+}
+
+.rjt-top p {
+    color: #2b2d2d;
+    font-size: 20px;
+}
+
+.rjt-bottom {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* gap: 20px; */
+}
+
+.rjtb-left {
+    width: 20%;
+}
+
+.rjtb-left div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.rjtb-center {
+    width: 33%;
+    padding: 0px 25px 25px 25px;
+    border: 2px solid #d96122;
+    border-radius: 10px;
+}
+
+.rjtb-center h3 {
+    font-size: 20px;
+    color: #312e2e;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+.rjtb-center h1 {
+    font-size: 50px;
+    color: #d96122;
+    text-align: center;
+    margin-top: -20px;
+}
+
+.rjtb-center ul {
+    list-style: none;
+    font-size: 20px;
+}
+
+.rjtb-center ul li {
+    position: relative;
+    margin-top: 10px;
+}
+
+.rjtb-center ul li::before {
+    position: absolute;
+    content: "";
+    background-image: url("../../images/check.svg");
+    background-repeat: no-repeat;
+    left: -35px;
+    width: 36px;
+    height: 36px;
+}
+
+.rjtb-right {
+    width: 33%;
+    padding: 0px 25px 25px 25px;
+    border: 2px solid #dfdfdf;
+    /* border: 2px solid #343535; */
+    border-radius: 10px;
+}
+
+.rjtb-right h3 {
+    font-size: 20px;
+    color: #312e2e;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+.rjtb-right h1 {
+    font-size: 50px;
+    color: #343535;
+    text-align: center;
+    margin-top: -20px;
+}
+
+.rjtb-right ul {
+    list-style: none;
+    font-size: 20px;
+}
+
+.rjtb-right ul li {
+    position: relative;
+    color: #2b2d2d;
+    margin-top: 10px;
+}
+
+.rjtb-right ul li::before {
+    position: absolute;
+    content: "";
+    background-image: url("../../images/check1.svg");
+    background-repeat: no-repeat;
+    left: -35px;
+    width: 36px;
+    height: 36px;
+}
+
+.rjt-btn {
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.rjt-btn button {
+    cursor: pointer;
+    padding: 15px 20px;
+    font-size: 17px;
+    font-weight: 500;
+    color: #ffffff;
+    background-color: #d96122;
+    border: none;
+    border-radius: 10px;
+}

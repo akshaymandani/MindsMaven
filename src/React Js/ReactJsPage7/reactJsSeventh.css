@@ -1,0 +1,120 @@
+.rjse-body {
+    width: 100%;
+    font-family: poppins, sans-serif;
+}
+
+.rjse-main {
+    width: 90%;
+    margin: auto;
+}
+
+.rjse-title {
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.rjse-content {
+    width: 100%;
+}
+
+.rjse-table {
+    width: 100%;
+    border-collapse: collapse
+}
+
+.rjse-table thead {
+    background-color: rgba(217, 97, 34, .3);
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+.rjse-table thead tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+.rjse-table thead tr th {
+    display: table-cell;
+    vertical-align: inherit;
+    color: #fff;
+    background-color: #d96122;
+    padding: 20px 10px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    border-right: 1px solid #fff;
+}
+
+.rjse-table tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+    /* background-color: #d96122; */
+}
+
+.rjse-table tbody tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+    /* background-color: #22cdd9; */
+}
+
+.rjse-table tbody tr:nth-child(odd) {
+    background: #fff;
+}
+
+.rjse-table tbody tr:nth-child(even) {
+    background: #f5f5f6;
+    /* background-color: rgba(241, 241, 241, .5); */
+    /* background: #c5c3c2; */
+}
+
+.rjse-table tbody tr td {
+    width: 25%;
+    /* font-size: 19px; */
+    font-size: 18px;
+    font-weight: 400;
+    color: #3f2d24;
+    text-align: center;
+    padding: 20px 10px;
+    /* border-right: 1px solid rgba(36, 36, 36, .1); */
+    display: table-cell;
+    vertical-align: inherit;
+}
+
+.rjse-table tbody tr td:not(:last-child) {
+    border-right: 1px solid #f1f1f1;
+    /* border-right: 1px solid rgba(36, 36, 36, .1); */
+}
+
+.rjse-table tbody tr:nth-child(odd) td:nth-child(3) {
+    background: #f7dfd3;
+    /* background: rgba(217, 97, 34, .2); */
+}
+
+.rjse-table tbody tr:nth-child(even) td:nth-child(3) {
+    background: #facbb2;
+    /* background: rgba(255, 162, 109, .5); */
+}
+
+.rjse-btn {
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.rjse-btn button {
+    cursor: pointer;
+    padding: 6px 20px;
+    font-size: 15px;
+    border: none;
+    border-radius: 6px;
+    color: #fff;
+    background-color: #d96122;
+}

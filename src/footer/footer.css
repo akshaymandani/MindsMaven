@@ -1,0 +1,16 @@
+.fr-body {
+    /* background-color: #5b5151; */
+}
+
+.ft-main {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* background-color: #5b5151; */
+}
+
+.fi {
+    color: #929292;
+    font-size: 20px;
+}

@@ -1,0 +1,94 @@
+.nl-body {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.nl-left {
+    /*  */
+}
+
+.nl-left h1 {
+    font-size: 30px;
+}
+
+.nl-left p {
+    font-size: 20px;
+}
+
+.nl-left p span {
+    color: #d96122;
+}
+
+.nl-right {
+    margin-top: 30px;
+}
+
+.nlr-form {
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* height: 100vh; */
+}
+
+.nlr-form form {
+    display: flex;
+    flex-direction: row;
+    margin-left: 5px;
+    /* align-items: center; */
+}
+
+.nlf-input {
+    position: relative;
+}
+
+.nlf-input input {
+    padding: 15px 10px;
+    color: #8f8d8d;
+    /* margin-bottom: 10px; */
+    border: 1px solid #e0e0e0;
+    /* border: 1px solid #ccc; */
+    /* border-radius: 5px; */
+    font-size: 15px;
+    width: 400px;
+    outline: none;
+    /* Adjust width as needed */
+}
+
+.nlr-form form button {
+    padding: 15px 30px;
+    background-color: #d96122;
+    /* background-color: #007bff; */
+    color: #fff;
+    border: none;
+    /* border-radius: 5px; */
+    font-size: 15px;
+    cursor: pointer;
+}
+
+/* Adjust icon position */
+.fa-envelope {
+    position: absolute;
+    color: #8f8d8d;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+}
+
+.nlr-content p {
+    font-size: 19px;
+}
+
+@media screen and (max-width: 600px) {
+    .nlr-form form {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        gap: 10px;
+    }
+
+    .nlf-input input {
+        width: 300px;
+    }
+}

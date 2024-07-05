@@ -1,0 +1,36 @@
+.mobile-body {
+    width: 100%;
+}
+
+.mobile-main {
+    width: 95%;
+    margin: auto;
+}
+
+.mobile-mainText {
+    border-bottom: 2px solid #F6F6F6;
+}
+
+.mobile-mainText h1 {
+    text-align: left;
+}
+
+.mobile-submain {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.mobile-submain div {
+    cursor: pointer;
+    text-align: center;
+}
+
+.mobile-submain div img {
+    width: 100px;
+    height: 100px;
+    aspect-ratio: 1/1;
+    object-fit: contain;
+}

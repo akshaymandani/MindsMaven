@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.2" viewBox="0 0 221 56" width="221" height="56">
+  <title>Vector-svg</title>
+  <style>
+		.s0 { opacity: .2;fill: #ffffff } 
+		.s1 { fill: none;stroke: #ffa26d;stroke-width: 1.6 } 
+	</style>
+  <path id="Layer" class="s0" d="m184.5 56h-184.5l35.3-28-35.3-28h184.5l35.5 28z"></path>
+  <path id="Layer" fill-rule="evenodd" class="s1" d="m184.2 0.8l34.5 27.2-34.5 27.2h-181.9l33.5-26.6 0.8-0.6-0.8-0.6-33.5-26.6z"></path>
+</svg>

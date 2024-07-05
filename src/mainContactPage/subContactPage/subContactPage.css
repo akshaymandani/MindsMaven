@@ -1,0 +1,79 @@
+.scp-main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.scp-form h1 {
+    margin: auto;
+}
+
+.scpf-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* h2 {
+    margin-bottom: 20px;
+  } */
+
+.scpf-group {
+    margin-bottom: 20px;
+}
+
+.scpf-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.scpf-group input[type="text"],
+.scpf-group input[type="tel"],
+.scpf-group input[type="email"],
+.scpf-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.scpf-container form button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Adjust reCAPTCHA styles */
+.g-recaptcha {
+    display: block;
+    margin-top: 20px;
+}
+
+.mapbox {
+    position: relative;
+    height: 250px;
+    width: 100%;
+    border-radius: 16px;
+    margin-bottom: 30px;
+    border: 1px solid var(--jet);
+    overflow: hidden;
+}
+
+.mapbox figure {
+    height: 100%;
+}
+
+.mapbox iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+    filter: grayscale(1) invert(1);
+}
+
+.mapbox {
+    height: 380px;
+    border-radius: 18px;
+}

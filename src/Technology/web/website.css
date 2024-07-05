@@ -1,0 +1,71 @@
+.ws-body {
+    width: 100%;
+}
+
+.ws-main {
+    width: 100%;
+    margin: auto;
+}
+
+.ws-mainText {
+    border-bottom: 2px solid #F6F6F6;
+}
+
+.ws-mainText h1 {
+    text-align: left;
+}
+
+/* .ws-span {
+    display: inline-block;
+    width: 175px;
+    height: 2px;
+    margin: auto;
+    margin-top: -10px;
+    background: radial-gradient(50% 151250% at 50% -100%, #d96122 0, rgba(255, 255, 255, 0) 100%);
+} */
+
+/* .ws-main hr {
+    width: 100%;
+} */
+
+.ws-submain {
+    width: 100%;
+}
+
+.wss-leftmain {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.wss-leftmain div {
+    cursor: pointer;
+    text-align: center;
+}
+
+.wss-leftmain div img {
+    width: 100px;
+    height: 100px;
+    aspect-ratio: 1/1;
+    object-fit: contain;
+}
+
+.wss-rightmain {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.wss-rightmain div {
+    cursor: pointer;
+    text-align: center;
+}
+
+.wss-rightmain div img {
+    width: 100px;
+    height: 100px;
+    aspect-ratio: 1/1;
+    object-fit: contain;
+}

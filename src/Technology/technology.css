@@ -1,0 +1,69 @@
+.tech-body {
+    width: 100%;
+    height: 100vh;
+}
+
+.tech-main {
+    width: 100%;
+    height: 100%;
+}
+
+.tech-mainText {
+    width: 100%;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.tech-mainText h1 {
+    text-align: center;
+}
+
+.tech-span {
+    display: block;
+    width: 175px;
+    height: 2px;
+    margin: auto;
+    margin-top: -10px;
+    background: radial-gradient(50% 151250% at 50% -100%, #d96122 0, rgba(255, 255, 255, 0) 100%);
+}
+
+.tech-submain {
+    width: 90%;
+    height: 80%;
+    /* height: 85vh; */
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    box-shadow: 0 0 60px rgba(0, 0, 0, .11);
+    /* box-shadow: 0px 0px 20px #353434, 0px 0px 20px #353434; */
+}
+
+.button-container {
+    width: 27%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #ffffff;
+    border-right: 5px solid #d96122;
+}
+
+.button-container button {
+    width: 100%;
+    border: none;
+    /* padding: 2%; */
+    font-size: 25px;
+    background-color: #ffffff;
+}
+
+.button-container button:hover {
+    /* color: white;
+    background-color: rgb(255, 123, 0); */
+    color: #d96122;
+    background-color: #efefef;
+    border-left: 5px solid #d96122;
+}
+
+.content-container {
+    width: 70%;
+    /* border-left: 3px solid #d96122; */
+}

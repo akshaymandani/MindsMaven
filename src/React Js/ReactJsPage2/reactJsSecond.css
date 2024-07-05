@@ -1,0 +1,103 @@
+.rjs-body {
+    width: 100%;
+}
+
+.rjs-main {
+    width: 90%;
+    margin: auto;
+}
+
+.rjs-top {
+    text-align: center;
+}
+
+.rjst-h6 {
+    position: relative;
+}
+
+.rjst-h6::before {
+    position: absolute;
+    content: '';
+    background: linear-gradient(to left, #d96122, #d9612200);
+    width: 98px;
+    height: 2px;
+    top: 50%;
+    left: 31%;
+    /* margin-right: -20px; */
+}
+
+.rjst-h6::after {
+    position: absolute;
+    content: '';
+    background: linear-gradient(to right, #d96122, #d9612200);
+    width: 98px;
+    height: 2px;
+    top: 50%;
+    margin-left: 10px;
+}
+
+/* @media screen and (max-width: 1500px) {
+    .rjst-h6::before {
+        left: 30%;
+    }
+} */
+
+@media screen and (max-width:900px) {
+    .rjst-h6::before {
+        display: none;
+    }
+
+    .rjst-h6::after {
+        display: none;
+    }
+}
+
+.rjs-top h1 {
+    margin-top: -18px;
+}
+
+.rjs-top h1 span {
+    color: #d96122;
+}
+
+.rjs-top p {
+    color: #323232;
+    margin-top: -8px;
+    font-size: 20px;
+}
+
+.rjs-bottom {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.rjs-btn {
+    width: auto;
+    margin: auto;
+    /* margin: 50px auto; */
+}
+
+.rjs-btn button {
+    /* width: 100%; */
+    margin: 50px 36%;
+    /* margin: 50px 460px; */
+    padding: 15px 22px;
+    font-size: 17px;
+    font-weight: 500;
+    color: #fff;
+    background-color: #d96122;
+    border: none;
+    border-radius: 12.5px;
+}
+
+@media screen and (max-width:942px) {
+    .rjs-btn {
+        width: 100%;
+    }
+
+    .rjs-btn button {
+        width: 80%;
+        margin: 50px auto;
+    }
+}

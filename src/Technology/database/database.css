@@ -1,0 +1,36 @@
+.database-body {
+    width: 100%;
+}
+
+.database-main {
+    width: 95%;
+    margin: auto;
+}
+
+.database-mainText {
+    border-bottom: 2px solid #F6F6F6;
+}
+
+.database-mainText h1 {
+    text-align: left;
+}
+
+.database-submain {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.database-submain div {
+    cursor: pointer;
+    text-align: center;
+}
+
+.database-submain div img {
+    width: 100px;
+    height: 100px;
+    aspect-ratio: 1/1;
+    object-fit: contain;
+}

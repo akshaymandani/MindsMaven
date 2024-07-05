@@ -1,0 +1,64 @@
+.hs-body {
+    width: 100%;
+    height: 94.5vh;
+    position: relative;
+    padding-top: 150px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0, rgba(196, 196, 196, 0) .01%, rgba(217, 97, 34, .2) 100%);
+}
+
+.hs-main {
+    width: 100%;
+    z-index: 1;
+}
+
+.hs-body::before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-image: url(https://taglineinfotech.com/wp-content/themes/tagline/assets/images/main-head.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 200px;
+    z-index: -1;
+}
+
+.hs-content {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+.hs-content h1 {
+    font-size: 60px;
+}
+
+.hs-content h1 span {
+    color: transparent;
+    background-color: text;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(268.59deg, #d96122 7.52%, #d80041 92.78%);
+    /* background-image: linear-gradient(268deg, #d96122 8%, #d80041 92%); */
+    /* background-image: linear-gradient(to right, #ee0b9b, #d96122); */
+}
+
+.hs-content p {
+    width: 50%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.hs-content a {
+    background-color: #d96122;
+    /* background-color: #fb9004; */
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 20px;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+}

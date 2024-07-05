@@ -1,0 +1,107 @@
+.cu-body {
+    width: 95%;
+    margin: 0 auto 50px;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: "poppins", sans-serif;
+}
+
+.cu-left {
+    position: relative;
+    width: 50%;
+}
+
+.cu-left-main {
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(193, 89, 36, .8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    /* text-align: center; */
+}
+
+.content {
+    padding: 30px 100px;
+}
+
+.content h1 {
+    /* text-align: center; */
+    font-size: 50px;
+}
+
+.content1 {
+    padding: 0px 10px 0px 10px;
+}
+
+.content1 h2 {
+    font-size: 36px;
+}
+
+.content1 p {
+    font-size: 20px;
+}
+
+#main-image {
+    width: 100%;
+    height: 100%;
+}
+
+.cu-right {
+    width: 40%;
+    padding: 50px;
+    height: 100%;
+    max-height: 711px;
+    margin: auto 0;
+    box-shadow: 0px 5px 18px #888888, 0px 2px 50px #888888;
+}
+
+.cu-right .cu-right-top h1 {
+    text-align: center;
+}
+
+.cu-right-content form {
+    margin: auto;
+}
+
+.cu-right-content form label {
+    margin-bottom: 10px;
+}
+
+.cu-right-content form input {
+    width: 100%;
+    padding: 15px 0px 20px 20px;
+    outline: none;
+    /* margin-top: 10px; */
+    font-size: 15px;
+    margin-bottom: 10px;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+.cu-right-content form textarea {
+    width: 100%;
+    padding: 15px 0px 20px 20px;
+    outline: none;
+    font-size: 15px;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+.cu-right-content form button {
+    color: #ffffff;
+    background-color: #d96122;
+    border: none;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 10px;
+}
