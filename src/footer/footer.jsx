@@ -1,16 +1,9 @@
 import React from "react";
+import { FaAngular, FaLaptop, FaMobile, FaPython, FaQuestionCircle, FaReact } from "react-icons/fa";
+import { FaLightbulb, FaPhone } from "react-icons/fa6";
+import { MdDesignServices, MdMail } from "react-icons/md";
+import { Link } from "react-router-dom";
 import "./footer.css";
-import { MdMail } from "react-icons/md";
-import { FaPhone } from "react-icons/fa6";
-import { FaLaptop } from "react-icons/fa";
-import { FaMobile } from "react-icons/fa";
-import { MdDesignServices } from "react-icons/md";
-import { HiSpeakerphone } from "react-icons/hi";
-import { FaReact } from "react-icons/fa";
-import { FaAngular } from "react-icons/fa";
-import { FaPython } from "react-icons/fa";
-import { FaQuestionCircle } from "react-icons/fa";
-import { FaLightbulb } from "react-icons/fa6";
 
 const Footer = () => {
   return (
@@ -100,12 +93,15 @@ const Footer = () => {
         </div>
         <div className="ft-right">
           <h1>Hire Developer</h1>
+          <Link to="react">
           <p className="fi">
             <icon>
               <FaReact />
             </icon>{" "}
             Hire ReactJs Developer
+            
           </p>
+          </Link>
           <p className="fi">
             <icon>
               <FaAngular />

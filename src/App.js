@@ -1,24 +1,32 @@
-import logo from './logo.svg';
+import "@fortawesome/fontawesome-free/css/all.min.css";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import './App.css';
 import ContactUs from './contact us/contactUs';
-import Footer from './footer/footer';
-import Technology from './Technology/technology';
 import Developer from './developer/developer';
-import NewsLetter from './newsLetter/newsLetter';
-import "@fortawesome/fontawesome-free/css/all.min.css";
+import MainHomePage from './Home/mainHomePage/mainHomePage';
 import ContactPage from "./mainContactPage/contactPage";
 import ReactJsMainPage from './React Js/reactJs';
-import WorkFlow from './commonComponent/cc1/workFlow';
-import StepsToHire from './commonComponent/cc2/stepsToHire';
-import MainHomePage from './Home/mainHomePage/mainHomePage';
+import Technology from './Technology/technology';
 
 function App() {
   return (
-    <div className="App">
+   <>
+    <BrowserRouter> 
+     <Routes> 
+      <Route path="/" element={ <MainHomePage />} /> 
+      <Route path="/contact" element={<ContactPage />} />
+      <Route path="/react" element={<ReactJsMainPage />} />
+      <Route path="/technology" element={<Technology />} />
+      <Route path="/developer" element={<Developer />} />
+      <Route path="/contactUs" element={<ContactUs />} />
+
+     </Routes>
+    </BrowserRouter>
+    <div className="App"> 
       {/* <MainHomePage /> */}
       {/* <StepsToHire /> */}
       {/* <WorkFlow /> */}
-      <ReactJsMainPage />
+      {/* <ReactJsMainPage /> */}
       {/* <ContactPage /> */}
       {/* <NewsLetter /> */}
       {/* <Developer /> */}
@@ -26,6 +34,7 @@ function App() {
       {/* <ContactUs /> */}
       {/* <Footer /> */}
     </div>
+   </>
   );
 }
 

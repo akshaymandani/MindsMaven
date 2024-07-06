@@ -16,10 +16,10 @@ import ContactUs from '../contact us/contactUs';
 import Footer from '../footer/footer';
 import NewsLetter from '../newsLetter/newsLetter';
 
-const ReactJsMainPage = () => {
+const ReactJsMainPage = () => { 
   return (
     <div>
-      <header></header>
+     
       <main>
         <ReactJsFirst />
         <ReactJsSecond />
