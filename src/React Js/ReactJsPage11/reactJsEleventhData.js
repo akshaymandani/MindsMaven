@@ -17,7 +17,7 @@ const ReactJsEleventhData = [
     {
         id: 4,
         que: "What type of services can I get from your ReactJS developers?",
-        ans: "At Tagline Infotech, we have a team of ReactJs developers who provide different types of ReactJs development services like front-end development, website migration, UI/UX development, and many more.",
+        ans: "At MindsMaven IT Solution, we have a team of ReactJs developers who provide different types of ReactJs development services like front-end development, website migration, UI/UX development, and many more.",
     },
     {
         id: 5,

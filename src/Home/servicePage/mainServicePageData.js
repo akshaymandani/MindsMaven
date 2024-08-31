@@ -18,7 +18,7 @@ const MainServicePageData = [
         title: "Software outsourcing company",
         imageUrl: require("../../images/software-development-1.svg").default,
         pageUrl: "#",
-        description: "Tagline Infotech is an experienced software outsourcing company that provides services for various businesses. We have a reliable team of developers that provides high-quality outsourcing services to scale your business.",
+        description: "MindsMaven IT Solution is an experienced software outsourcing company that provides services for various businesses. We have a reliable team of developers that provides high-quality outsourcing services to scale your business.",
     },
     {
         id: 4,

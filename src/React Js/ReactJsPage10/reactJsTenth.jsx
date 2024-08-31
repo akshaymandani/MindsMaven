@@ -1,7 +1,9 @@
 import React from 'react'
 import "./reactJsTenth.css"
-import { ReactJsTenthCardBottom, ReactJsTenthCardTop } from './reactJsTenthCard';
-import {ReactJsTenthData1,ReactJsTenthData2} from './reactJsTenthData';
+// import { ReactJsTenthCardBottom, ReactJsTenthCardTop } from './reactJsTenthCard';
+import ReactJsTenthCard from './reactJsTenthCard';
+// import {ReactJsTenthData1,ReactJsTenthData2} from './reactJsTenthData';
+import ReactJsTenthData from './reactJsTenthData';
 
 const ReactJsTenth = () => {
     return (
@@ -13,7 +15,7 @@ const ReactJsTenth = () => {
                     <p>Here you can explore the industries for which we provide best-in-class ReactJs development services.</p>
                 </div>
                 <div className='rjte-content'>
-                    <div className='rjtec-top'>
+                    {/* <div className='rjtec-top'>
                     {ReactJsTenthData1.map((reactJsTenthCard, index) => (
                         <ReactJsTenthCardTop key={index} title={reactJsTenthCard.title} imageUrl={reactJsTenthCard.imageUrl} contentLink={reactJsTenthCard.contentLink} />
                     ))}
@@ -22,6 +24,11 @@ const ReactJsTenth = () => {
                     {ReactJsTenthData2.map((reactJsTenthCard, index) => (
                         <ReactJsTenthCardBottom key={index} title={reactJsTenthCard.title} imageUrl={reactJsTenthCard.imageUrl} contentLink={reactJsTenthCard.contentLink} />
                     ))}
+                    </div> */}
+                    <div className='rjtec'>
+                        {ReactJsTenthData.map((reactJsTenthCard, index) => (
+                            <ReactJsTenthCard key={index} title={reactJsTenthCard.title} imageUrl={reactJsTenthCard.imageUrl} contentLink={reactJsTenthCard.contentLink} />
+                        ))}
                     </div>
                 </div>
             </div>

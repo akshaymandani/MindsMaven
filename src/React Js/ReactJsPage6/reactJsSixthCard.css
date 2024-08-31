@@ -1,0 +1,41 @@
+.rjsc-main {
+    height: 100%;
+    /* width: 25%; */
+    border-radius: 20px;
+    position: relative;
+    /* padding: 30px; */
+    padding: 12px 24px 12px 50px;
+}
+
+/* .rjsc-main img {
+    max-width: 100%;
+    width: 44px;
+    aspect-ratio: auto 44 / 45;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+} */
+
+.rjsc-main h3 {
+    max-width: 100%;
+    /* width: 44px; */
+    /* width: 200px; */
+    /* aspect-ratio: auto 44 / 45; */
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+.rjsc-main p {
+    font-size: 20px;
+    color: #646363;
+}
+
+.rjsc-main::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(64.55% 84.55% at 50% 50%, #d96122 0, rgba(255, 255, 255, 0) 91.42%);
+    border-radius: 20px;
+    padding: 2px;
+    -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+}

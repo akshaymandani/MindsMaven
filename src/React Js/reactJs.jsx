@@ -15,11 +15,14 @@ import ReactJsEleventh from './ReactJsPage11/reactJsEleventh';
 import ContactUs from '../contact us/contactUs';
 import Footer from '../footer/footer';
 import NewsLetter from '../newsLetter/newsLetter';
+import NavbarSection from '../Home/navbarSection/navbarSection';
 
 const ReactJsMainPage = () => {
   return (
     <div>
-      <header></header>
+      <header>
+        <NavbarSection />
+      </header>
       <main>
         <ReactJsFirst />
         <ReactJsSecond />
@@ -27,7 +30,7 @@ const ReactJsMainPage = () => {
         <ReactJsFourth />
         <ReactJsFifth />
         <ReactJsSixth />
-        <ReactJsSeventh />
+        {/* <ReactJsSeventh /> */}
         <ReactJsEighth />
         <ReactJsNinth />
         <ReactJsTenth />

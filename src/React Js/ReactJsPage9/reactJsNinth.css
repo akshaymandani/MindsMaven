@@ -27,9 +27,9 @@
     /* margin-bottom: 46px; */
 }
 
-/* @media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
     .rjn-content div {
-        flex: 0 0 50%;
-        max-width: 50%;
+        /* flex: 0 0 50%; */
+        max-width: 100%;
     }
-} */
+}

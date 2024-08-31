@@ -13,8 +13,8 @@ const ReactJsSeventh = () => {
             <div className='rjse-main'>
                 <div className='rjse-title'>
                     <h6>07. HIRE DEVELOPERS</h6>
-                    <h1><span>Hire ReactJs Developers:</span> In-House, Freelancers, Or From Tagline Infotech</h1>
-                    <p>Get experienced ReactJS developers from Tagline Infotech or want the expertise of freelancers or an in-house team based on your project's needs so that you can get amazing apps.</p>
+                    <h1><span>Hire ReactJs Developers:</span> In-House, Freelancers, Or From MindsMaven IT Solution</h1>
+                    <p>Get experienced ReactJS developers from MindsMaven IT Solution or want the expertise of freelancers or an in-house team based on your project's needs so that you can get amazing apps.</p>
                 </div>
                 <div className='rjse-content'>
                     <table className="rjse-table">

@@ -23,7 +23,8 @@ const Footer = () => {
               <icon>
                 <MdMail />
               </icon>{" "}
-              mindsmaven296@gmail.com
+              {/* mindsmaven296@gmail.com */}
+              contact@mindsmaven.in
             </p>
             <p className="fi">
               <icon>
@@ -40,7 +41,8 @@ const Footer = () => {
               <icon>
                 <MdMail />
               </icon>{" "}
-              mindsmaven296@gmail.com
+              {/* mindsmaven296@gmail.com */}
+              contact@mindsmaven.in
             </p>
             <p className="fi">
               <icon>

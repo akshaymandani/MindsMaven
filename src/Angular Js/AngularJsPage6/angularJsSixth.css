@@ -1,0 +1,45 @@
+.ajsi-body {
+    width: 100%;
+}
+
+.ajsi-main {
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.ajsi-title {
+    /* width: 70%; */
+    text-align: center;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.ajsi-title h1 {
+    font-size: 36px;
+}
+
+.ajsi-title h1 span {
+    color: #d96122;
+}
+
+.ajsi-title p {
+    /* color: #2b2d2d; */
+    color: #484848;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.ajsi-content {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.ajsi-content>* {
+    flex: 1;
+    /* min-width: 200px; */
+}

@@ -21,7 +21,8 @@
 
 .rjse-table {
     width: 100%;
-    border-collapse: collapse
+    border-collapse: collapse;
+    overflow-y: scroll;
 }
 
 .rjse-table thead {

@@ -34,4 +34,10 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    gap: 30px;
+}
+
+.rjsi-content>* {
+    flex: 1;
+    /* min-width: 200px; */
 }

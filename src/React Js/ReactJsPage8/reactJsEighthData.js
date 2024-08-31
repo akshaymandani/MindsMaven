@@ -12,7 +12,7 @@ const reactJsEighthData = [
     {
         id: 3,
         title: "One-to-one Communication",
-        description: "At Tagline Infotech, we have a team of experts who work closely with you while providing real-time updates about the project during the development process."
+        description: "At MindsMaven IT Solution, we have a team of experts who work closely with you while providing real-time updates about the project during the development process."
     },
     {
         id: 4,

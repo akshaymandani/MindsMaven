@@ -11,14 +11,16 @@ import ReactJsMainPage from './React Js/reactJs';
 import WorkFlow from './commonComponent/cc1/workFlow';
 import StepsToHire from './commonComponent/cc2/stepsToHire';
 import MainHomePage from './Home/mainHomePage/mainHomePage';
+import AngularJsMainPage from './Angular Js/angularJs';
 
 function App() {
   return (
     <div className="App">
+      <AngularJsMainPage />
       {/* <MainHomePage /> */}
       {/* <StepsToHire /> */}
       {/* <WorkFlow /> */}
-      <ReactJsMainPage />
+      {/* <ReactJsMainPage /> */}
       {/* <ContactPage /> */}
       {/* <NewsLetter /> */}
       {/* <Developer /> */}

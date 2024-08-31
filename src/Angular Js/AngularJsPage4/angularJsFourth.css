@@ -1,0 +1,92 @@
+.rjfo-body {
+    width: 100%;
+    padding: 50px 0;
+    background: #f8f9fa;
+}
+
+.rjfo-main {
+    width: 80%;
+    margin: auto;
+}
+
+.rjfo-title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.rjfo-title p {
+    font-size: 17px;
+    max-width: 504px;
+    margin: auto;
+}
+
+.rjfo-form {
+    width: 100%;
+    margin: auto;
+}
+
+.rjfof-main {
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    background: #ffffff;
+    box-shadow: 0 6px 21px rgb(0 0 0/8%);
+    /* box-shadow: 1px 1px 10px #d2d2d2, -1px -1px 10px #d2d2d2; */
+    /* box-shadow: 1px 1px 5px #c3bebe, -1px -1px 5px #c1bdbd; */
+    /* background-color: #ffffff; */
+}
+
+.rjfof-main form {
+    width: 80%;
+    margin: auto;
+    padding: 50px 0px;
+}
+
+.rjfof-main form input {
+    width: 98.5%;
+    padding: 12px 0px 12px 15px;
+    font-size: 17px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #000;
+}
+
+.rjfof-main form div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 3%;
+}
+
+.rjfof-main form div input {
+    width: 45%;
+    padding: 12px 0px 12px 15px;
+}
+
+.rjfof-main form #message {
+    margin-top: 3%;
+    width: 98.5%;
+    padding: 12px 0px 12px 15px;
+    font-size: 17px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #000;
+}
+
+.rjfof-btn {
+    width: 100%;
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: center; */
+}
+
+.rjfof-btn button {
+    cursor: pointer;
+    font-size: 17px;
+    padding: 12px 168px;
+    margin: auto;
+    border: none;
+    border-radius: 8px;
+    color: #ffffff;
+    background-color: #d85b1a;
+}
