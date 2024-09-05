@@ -1,6 +1,6 @@
 import React from 'react'
 import "./mainHomePage.css"
-//import HeaderSection from '../headerSection/headerSection';
+import HeaderSection from '../headerSection/headerSection';
 import MainServicePage from '../servicePage/mainServicePage';
 import Technology from '../../Technology/technology';
 import ContactUs from '../../contact us/contactUs';
@@ -10,9 +10,9 @@ const MainHomePage = () => {
   return (
     <div className='mhp-body'>
       <div className='mhp-main'>
-        {/* <header>
+        <header>
           <HeaderSection />
-        </header> */}
+        </header>
         <main>
           <MainServicePage />
           <Technology />
