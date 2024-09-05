@@ -1,16 +1,70 @@
-.fr-body {
-    /* background-color: #5b5151; */
+.ft-body {
+    width: 100%;
+    padding: 20px;
+    background-color: #f8f8f8;
 }
 
 .ft-main {
-    margin-top: 50px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    /* background-color: #5b5151; */
+    justify-content: space-between;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.ft-left, .ft-leftCenter, .ft-rightCenter, .ft-right {
+    width: 22%;
+    margin-bottom: 20px;
 }
 
 .fi {
     color: #929292;
-    font-size: 20px;
+    font-size: 18px;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+}
+
+.fi svg {
+    margin-right: 10px;
+}
+
+.ft-main h1 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Responsive Styles */
+
+/* Tablet and small screens */
+@media (max-width: 768px) {
+    .ft-left, .ft-leftCenter, .ft-rightCenter, .ft-right {
+        width: 45%;
+    }
+
+    .fi {
+        font-size: 16px;
+    }
+
+    .ft-main h1 {
+        font-size: 20px;
+    }
+}
+
+/* Mobile screens */
+@media (max-width: 500px) {
+    .ft-left, .ft-leftCenter, .ft-rightCenter, .ft-right {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .fi {
+        font-size: 14px;
+    }
+
+    .ft-main h1 {
+        font-size: 18px;
+    }
 }
