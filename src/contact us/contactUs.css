@@ -3,72 +3,24 @@
     margin: 0 auto 50px;
     display: flex;
     flex-wrap: wrap;
-    font-family: "poppins", sans-serif;
+    font-family: "Poppins", sans-serif;
+    padding: 20px;
 }
 
 .cu-left {
     position: relative;
-    /* width: 50%; */
-}
-
-@media screen and (max-width: 1053px) {
-    .cu-left {
-        width: 100%;
-    }
-
-    .cu-right {
-        width: 100%;
-    }
-}
-
-@media screen and (min-width: 1053px) {
-    .cu-left {
-        width: 50%;
-    }
-
-    .cu-right {
-        width: 40%;
-    }
-}
-
-@media screen and (min-width: 500px) {
-    .content {
-        padding: 30px 100px;
-    }
-
-    .content h1 {
-        font-size: 50px;
-    }
-
-    .content1 {
-        padding: 0px 10px 0px 10px;
-    }
-
-    .content1 h2 {
-        font-size: 36px;
-    }
-
-    .content1 p {
-        font-size: 20px;
-    }
-}
-
-@media screen and (max-width: 500px) {
-    .content h1 {
-        font-size: 30px;
-    }
-
-    .content1 h2 {
-        font-size: 24px;
-    }
-
-    .content1 p {
-        font-size: 15px;
-    }
+    width: 50%;
 }
 
 .cu-left-main {
     position: relative;
+    width: 100%;
+}
+
+#main-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .overlay {
@@ -77,51 +29,41 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgb(193, 89, 36, .8);
+    background-color: rgba(193, 89, 36, 0.8);
     display: flex;
     justify-content: center;
     align-items: center;
     color: white;
-    /* text-align: center; */
 }
 
 .content {
-    /* padding: 30px 100px; */
+    padding: 30px 20px;
+    text-align: center;
 }
 
 .content h1 {
-    /* text-align: center; */
-    /* font-size: 50px; */
-}
-
-.content1 {
-    /* padding: 0px 10px 0px 10px; */
+    font-size: 36px;
+    margin-bottom: 20px;
 }
 
 .content1 h2 {
-    /* font-size: 36px; */
+    font-size: 24px;
 }
 
 .content1 p {
-    /* font-size: 20px; */
-}
-
-#main-image {
-    width: 100%;
-    height: 100%;
+    font-size: 18px;
 }
 
 .cu-right {
-    /* width: 40%; */
+    width: 50%;
     padding: 50px;
-    height: 100%;
-    max-height: 711px;
-    margin: auto 0;
-    box-shadow: 0px 5px 18px #888888, 0px 2px 50px #888888;
+    box-shadow: 0px 5px 18px rgba(136, 136, 136, 0.5), 0px 2px 50px rgba(136, 136, 136, 0.5);
 }
 
-.cu-right .cu-right-top h1 {
+.cu-right-top h1 {
     text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
 }
 
 .cu-right-content form {
@@ -130,34 +72,97 @@
 
 .cu-right-content form label {
     margin-bottom: 10px;
+    font-size: 16px;
 }
 
-.cu-right-content form input {
+.cu-right-content form input, .cu-right-content form textarea {
     width: 100%;
-    padding: 15px 0px 20px 20px;
-    outline: none;
-    /* margin-top: 10px; */
+    padding: 15px 20px;
     font-size: 15px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     border: none;
     border-bottom: 1px solid black;
-}
-
-.cu-right-content form textarea {
-    width: 100%;
-    padding: 15px 0px 20px 20px;
     outline: none;
-    font-size: 15px;
-    border: none;
-    border-bottom: 1px solid black;
 }
 
 .cu-right-content form button {
     color: #ffffff;
     background-color: #d96122;
     border: none;
-    margin-top: 20px;
-    padding: 10px 20px;
+    padding: 12px 20px;
     font-size: 18px;
     border-radius: 10px;
+    cursor: pointer;
+}
+
+.cu-right-content form button:hover {
+    background-color: #ef7622;
+}
+
+/* Media Queries for Responsiveness */
+
+/* Tablets and medium screens */
+@media (max-width: 1053px) {
+    .cu-left, .cu-right {
+        width: 100%;
+        padding: 20px;
+    }
+}
+
+/* Mobile screens */
+@media (max-width: 768px) {
+    .content h1 {
+        font-size: 28px;
+    }
+
+    .content1 h2 {
+        font-size: 20px;
+    }
+
+    .content1 p {
+        font-size: 16px;
+    }
+
+    .cu-right-top h1 {
+        font-size: 24px;
+    }
+
+    .cu-right-content form input, .cu-right-content form textarea {
+        padding: 12px 15px;
+        font-size: 14px;
+    }
+
+    .cu-right-content form button {
+        font-size: 16px;
+        padding: 10px 16px;
+    }
+}
+
+/* Smaller mobile screens */
+@media (max-width: 500px) {
+    .content h1 {
+        font-size: 24px;
+    }
+
+    .content1 h2 {
+        font-size: 18px;
+    }
+
+    .content1 p {
+        font-size: 14px;
+    }
+
+    .cu-right-top h1 {
+        font-size: 20px;
+    }
+
+    .cu-right-content form input, .cu-right-content form textarea {
+        padding: 10px 10px;
+        font-size: 12px;
+    }
+
+    .cu-right-content form button {
+        font-size: 14px;
+        padding: 8px 12px;
+    }
 }
