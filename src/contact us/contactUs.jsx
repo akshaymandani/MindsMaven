@@ -29,11 +29,11 @@ const ContactUs = () => {
         <div className='cu-right-content'>
           <form action="#" method="post">
             <label htmlFor="name">Full Name</label><br />
-            <input type="text" name="name" id="name" placeholder='Akshay Mandani' required /><br />
+            <input type="text" name="name" id="name" placeholder='John Doe' required /><br />
             <label htmlFor="phone no">Phone Number</label><br />
-            <input type="tel" name="phone no" id="phone_no" placeholder='+91 884 949 2570' required /><br />
+            <input type="tel" name="phone no" id="phone_no" placeholder='+91 123 456 789' required /><br />
             <label htmlFor="email">Email</label><br />
-            <input type="email" name="email" id="email" placeholder='akshay@gmail.com' required /><br />
+            <input type="email" name="email" id="email" placeholder='johndoe@gmail.com' required /><br />
             <label htmlFor="message">Message</label><br />
             <textarea name="message" id="message" placeholder='Write your message here' /><br />
             {/* <input type="textarea" name="message" id="message"/><br /> */}
