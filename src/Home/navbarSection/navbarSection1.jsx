@@ -20,7 +20,7 @@ const NavbarSection = () => {
           <div className="dropdown-content">
             <a href="#about">About Us</a>
             <a href="#careers">Careers</a>
-            <a href="#life">Life@Tagline Infotech</a>
+            <a href="#life">Life@MindsMaven IT Solutions</a>
           </div>
         </li>
         <li className="dropdown">
