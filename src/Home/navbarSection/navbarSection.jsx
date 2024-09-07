@@ -40,7 +40,7 @@ const NavbarSection = () => {
                             <div className="dropdown-column">
                                 <a href="#about">About Us</a>
                                 <a href="#careers">Careers</a>
-                                <a href="#life">Life@Tagline Infotech</a>
+                                <a href="#life">Life@MindsMaven IT Solutions</a>
                             </div>
                         </div>
                     </li>
