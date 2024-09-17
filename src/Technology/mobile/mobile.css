@@ -34,3 +34,19 @@
     aspect-ratio: 1/1;
     object-fit: contain;
 }
+
+@media (max-width: 480px) {
+    .mobile-submain {
+        width: 80%;
+    }
+
+    .mobile-mainText {
+        /* width: 87%; */
+    }
+
+    .mobile-submain div img {
+        width: 80px;
+        aspect-ratio: 1/1;
+        object-fit: contain;
+    }
+}

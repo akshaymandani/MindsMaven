@@ -8,7 +8,8 @@ const ReactJsNinth = () => {
         <div className='rjn-body'>
             <div className='rjn-main'>
                 <div className='rjn-title'>
-                    <h6>09. BENEFITS</h6>
+                    {/* <h6>09. BENEFITS</h6> */}
+                    <h6 className='rjn-h6'>07. BENEFITS</h6>
                     <h1>Benefits of <span>ReactJS Developers</span></h1>
                     <p>Here you can see some of the main benefits of hiring our ReactJs developers so that you can get different types of solutions that not only satisfy but surpass your expectations.</p>
                 </div>

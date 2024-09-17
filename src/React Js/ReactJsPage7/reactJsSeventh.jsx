@@ -12,15 +12,15 @@ const ReactJsSeventh = () => {
         <div className='rjse-body'>
             <div className='rjse-main'>
                 <div className='rjse-title'>
-                    <h6>07. HIRE DEVELOPERS</h6>
-                    <h1><span>Hire ReactJs Developers:</span> In-House, Freelancers, Or From MindsMaven IT Solution</h1>
-                    <p>Get experienced ReactJS developers from MindsMaven IT Solution or want the expertise of freelancers or an in-house team based on your project's needs so that you can get amazing apps.</p>
+                    {/* <h6>07. HIRE DEVELOPERS</h6> */}
+                    <h6 className='rjse-h6'>05. HIRE DEVELOPERS</h6>
+                    <h1><span>Hire ReactJs Developers:</span> In-House, Freelancers, Or From MindsMaven IT Solutions</h1>
+                    <p>Get experienced ReactJS developers from MindsMaven IT Solutions or want the expertise of freelancers or an in-house team based on your project's needs so that you can get amazing apps.</p>
                 </div>
                 <div className='rjse-content'>
                     <table className="rjse-table">
                         <thead>
                             <tr>
-                                {/* <th>ID</th> */}
                                 <th>Factor</th>
                                 <th>In-House</th>
                                 <th>MindsMaven</th>
@@ -31,7 +31,6 @@ const ReactJsSeventh = () => {
                             {showFullTable
                                 ? reactJsTableData.map((item) => (
                                     <tr key={item.id}>
-                                        {/* <td>{item.id}</td> */}
                                         <td>{item.factor}</td>
                                         <td>{item.inHouse}</td>
                                         <td>{item.mindsmaven}</td>
@@ -40,7 +39,6 @@ const ReactJsSeventh = () => {
                                 ))
                                 : reactJsTableData.slice(0, 6).map((item) => (
                                     <tr key={item.id}>
-                                        {/* <td>{item.id}</td> */}
                                         <td>{item.factor}</td>
                                         <td>{item.inHouse}</td>
                                         <td>{item.mindsmaven}</td>

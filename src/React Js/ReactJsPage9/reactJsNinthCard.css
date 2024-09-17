@@ -29,3 +29,9 @@
     -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
     -webkit-mask-composite: xor;
 }
+
+@media screen and (min-width: 300px) and (max-width: 768px) {
+    .rjnc-main img {
+        width: 30px;
+    }
+}

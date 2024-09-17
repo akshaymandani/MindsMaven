@@ -2,9 +2,9 @@ import React from 'react'
 
 // export const ReactJsTenthCardTop = (props) => {
 //     return (
-//         <div className='rjtect-card'>
+//         <div className='ajtect-card'>
 //             <a href={props.contentLink}>
-//                 <div className='rjtect-data'>
+//                 <div className='ajtect-data'>
 //                     <img src={props.imageUrl} alt={props.title} />
 //                     <p>{props.title}</p>
 //                 </div>
@@ -15,9 +15,9 @@ import React from 'react'
 
 // export const ReactJsTenthCardBottom = (props) => {
 //     return (
-//         <div className='rjtecb-card'>
+//         <div className='ajtecb-card'>
 //             <a href={props.contentLink}>
-//                 <div className='rjtecb-data'>
+//                 <div className='ajtecb-data'>
 //                     <img src={props.imageUrl} alt={props.title} />
 //                     <p>{props.title}</p>
 //                 </div>
@@ -29,9 +29,9 @@ import React from 'react'
 
 const ReactJsTenthCard = (props) => {
     return (
-        <div className='rjtect-card'>
+        <div className='ajtect-card'>
             <a href={props.contentLink}>
-                <div className='rjtect-data'>
+                <div className='ajtect-data'>
                     <img src={props.imageUrl} alt={props.title} />
                     <p>{props.title}</p>
                 </div>

@@ -15,7 +15,8 @@ const ReactJsEleventh = () => {
     <div className='rjel-body'>
       <div className='rjel-main'>
         <div className='rjel-title'>
-          <h6>11. FIELDS OF EXPERTISE</h6>
+          {/* <h6>11. FIELDS OF EXPERTISE</h6> */}
+          <h6 className='rjel-h6'>09. FIELDS OF EXPERTISE</h6>
           <h1><span>Frequently</span> Asked Questions</h1>
         </div>
         <div className='rjel-content'>

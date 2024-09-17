@@ -4,7 +4,8 @@ const MainServicePageData = [
         title: "Application Management and Modernisation",
         imageUrl: require("../../images/mobile-development-icon.svg").default,
         pageUrl: "#",
-        description: "Here at Tagline, we provide the service of Application management and modernisation for the growth of your business. We update the old application with new approaches, including the latest languages, frameworks, and platforms.",
+        // description: "Here at Tagline, we provide the service of Application management and modernisation for the growth of your business. We update the old application with new approaches, including the latest languages, frameworks, and platforms.",
+        description: "Here at MindsMaven, we provide the service of Application management and modernisation for the growth of your business. We update the old application with new approaches, including the latest languages, frameworks, and platforms.",
     },
     {
         id: 2,
@@ -18,7 +19,8 @@ const MainServicePageData = [
         title: "Software outsourcing company",
         imageUrl: require("../../images/software-development-1.svg").default,
         pageUrl: "#",
-        description: "MindsMaven IT Solution is an experienced software outsourcing company that provides services for various businesses. We have a reliable team of developers that provides high-quality outsourcing services to scale your business.",
+        // description: "Tagline Infotech is an experienced software outsourcing company that provides services for various businesses. We have a reliable team of developers that provides high-quality outsourcing services to scale your business.",
+        description: "MindsMaven IT Solutions is an experienced software outsourcing company that provides services for various businesses. We have a reliable team of developers that provides high-quality outsourcing services to scale your business.",
     },
     {
         id: 4,

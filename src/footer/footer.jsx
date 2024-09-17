@@ -1,36 +1,46 @@
 import React from "react";
+import { FaAngular, FaLaptop, FaMobile, FaPython, FaQuestionCircle, FaReact } from "react-icons/fa";
+import { FaLightbulb, FaPhone } from "react-icons/fa6";
+import { MdDesignServices, MdMail } from "react-icons/md";
+import { Link } from "react-router-dom";
 import "./footer.css";
-import { MdMail } from "react-icons/md";
-import { FaPhone } from "react-icons/fa6";
-import { FaLaptop } from "react-icons/fa";
-import { FaMobile } from "react-icons/fa";
-import { MdDesignServices } from "react-icons/md";
-import { HiSpeakerphone } from "react-icons/hi";
-import { FaReact } from "react-icons/fa";
-import { FaAngular } from "react-icons/fa";
-import { FaPython } from "react-icons/fa";
-import { FaQuestionCircle } from "react-icons/fa";
-import { FaLightbulb } from "react-icons/fa6";
 
 const Footer = () => {
   return (
     <div className="ft-body">
       <div className="ft-main">
-        <div className="ft-left">
+        <div className="ft-left ft-container">
           <div className="ftl-top">
             <h1>HR Inquiry</h1>
             <p className="fi">
-              <icon>
+              {/* <icon>
                 <MdMail />
               </icon>{" "}
-              {/* mindsmaven296@gmail.com */}
-              contact@mindsmaven.in
+              mindsmaven296@gmail.com */}
+              {/* <a href="mailto:mindsmaven296@gmail.com">
+                <icon>
+                  <MdMail />
+                </icon>&nbsp;
+                mindsmaven296@gmail.com
+              </a> */}
+              <a href="mailto:contact@mindsmaven.in">
+                <icon>
+                  <MdMail />
+                </icon>&nbsp;
+                contact@mindsmaven.in
+              </a>
             </p>
             <p className="fi">
-              <icon>
+              {/* <icon>
                 <FaPhone />
               </icon>{" "}
-              +91 8849492570
+              +91 8849492570 */}
+              <a href="tel:+918849492570">
+                <icon>
+                  <FaPhone />
+                </icon>&nbsp;
+                +91 8849492570
+              </a>
             </p>
             {/* <p><MdMail /> hr@mindsmaven.com</p>
                 <p><FaPhone /> +91 0123456789</p> */}
@@ -38,23 +48,38 @@ const Footer = () => {
           <div className="ftl-bottom">
             <h1>Sales Inquiry</h1>
             <p className="fi">
-              <icon>
+              {/* <icon>
                 <MdMail />
               </icon>{" "}
-              {/* mindsmaven296@gmail.com */}
-              contact@mindsmaven.in
+              mindsmaven296@gmail.com */}
+              {/* <a href="mailto:mindsmaven296@gmail.com">
+                <icon>
+                  <MdMail />
+                </icon>&nbsp;
+                mindsmaven296@gmail.com
+              </a> */}
+              <a href="mailto:contact@mindsmaven.in">
+                <icon>
+                  <MdMail />
+                </icon>&nbsp;
+                contact@mindsmaven.in
+              </a>
             </p>
             <p className="fi">
-              <icon>
+              {/* <icon>
                 <FaPhone />
               </icon>{" "}
-              +91 8849492570
+              +91 8849492570 */}
+              <a href="tel:+918849492570">
+                <icon>
+                  <FaPhone />
+                </icon>&nbsp;
+                +91 8849492570
+              </a>
             </p>
-            {/* <p><MdMail /> solutions@minds.com</p>
-                <p><FaPhone /> +91 0123456789</p> */}
           </div>
         </div>
-        <div className="ft-leftCenter">
+        <div className="ft-leftCenter ft-container">
           <h1>Help & Advice</h1>
           <p className="fi">
             <icon>
@@ -75,7 +100,7 @@ const Footer = () => {
             Q&A
           </p>
         </div>
-        <div className="ft-rightCenter">
+        <div className="ft-rightCenter ft-container">
           <h1>Services</h1>
           <p className="fi">
             <icon>
@@ -100,37 +125,48 @@ const Footer = () => {
             <p><MdDesignServices /> Web Design</p> */}
           <p></p>
         </div>
-        <div className="ft-right">
+        <div className="ft-right ft-container">
           <h1>Hire Developer</h1>
           <p className="fi">
-            <icon>
-              <FaReact />
-            </icon>{" "}
-            Hire ReactJs Developer
+            <Link to="/react">
+              <icon>
+                <FaReact />
+              </icon>{" "}
+              Hire ReactJs Developer
+
+            </Link>
           </p>
           <p className="fi">
-            <icon>
-              <FaAngular />
-            </icon>{" "}
-            Hire AngularJs Developer
+            <Link to="/angular">
+              <icon>
+                <FaAngular />
+              </icon>{" "}
+              Hire AngularJs Developer
+            </Link>
           </p>
           <p className="fi">
-            <icon>
-              <FaMobile />
-            </icon>{" "}
-            Hire Flutter Developer
+            <Link to="/flutter">
+              <icon>
+                <FaMobile />
+              </icon>{" "}
+              Hire Flutter Developer
+            </Link>
           </p>
           <p className="fi">
-            <icon>
-              <FaReact />
-            </icon>{" "}
-            Hire React Native Developer
+            <Link to="/reactnative">
+              <icon>
+                <FaReact />
+              </icon>{" "}
+              Hire React Native Developer
+            </Link>
           </p>
           <p className="fi">
-            <icon>
-              <FaPython />
-            </icon>{" "}
-            Hire Python Developer
+            <Link to="/python">
+              <icon>
+                <FaPython />
+              </icon>{" "}
+              Hire Python Developer
+            </Link>
           </p>
         </div>
       </div>

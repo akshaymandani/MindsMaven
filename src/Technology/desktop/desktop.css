@@ -34,3 +34,15 @@
     aspect-ratio: 1/1;
     object-fit: contain;
 }
+
+@media (max-width: 480px) {
+    .desktop-submain {
+        width: 80%;
+    }
+
+    .desktop-submain div img {
+        width: 80px;
+        aspect-ratio: 1/1;
+        object-fit: contain;
+    }
+}

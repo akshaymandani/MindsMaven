@@ -15,7 +15,7 @@ const ReactJsSecond = (props) => {
                         development services to ensure that you can have highly scalable web and mobile applications.</p>
                 </div>
                 <div className='rjs-bottom'>
-                    {ReactJsSecondRecord.map((reactJsSecondCard, index)=>(
+                    {ReactJsSecondRecord.map((reactJsSecondCard, index) => (
                         <ReactJsSecondCard key={index} imageUrl={reactJsSecondCard.imageUrl} title={reactJsSecondCard.title} description={reactJsSecondCard.description} />
                     ))}
                 </div>

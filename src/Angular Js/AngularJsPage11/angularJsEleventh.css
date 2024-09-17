@@ -1,26 +1,135 @@
-.rjel-body {
+.ajel-body {
     width: 100%;
 }
 
-.rjel-main {
+.ajel-main {
     width: 90%;
     margin: 80px auto;
 }
 
-.rjel-main hr {
+.ajel-h6 {
+    position: relative;
+}
+
+.ajel-h6::before {
+    position: absolute;
+    content: '';
+    background: linear-gradient(to left, #d96122, #d9612200);
+    width: 98px;
+    height: 2px;
+    top: 50%;
+    left: 30.5%;
+    /* margin-right: -20px; */
+}
+
+.ajel-h6::after {
+    position: absolute;
+    content: '';
+    background: linear-gradient(to right, #d96122, #d9612200);
+    width: 98px;
+    height: 2px;
+    top: 50%;
+    margin-left: 10px;
+}
+
+@media screen and (min-width: 1500px) {
+    .ajel-h6::before {
+        left: 37.5%;
+    }
+}
+
+@media screen and (min-width: 1400px) and (max-width: 1500px) {
+    .ajel-h6::before {
+        left: 37%;
+    }
+}
+
+@media screen and (min-width: 1300px) and (max-width: 1400px) {
+    .ajel-h6::before {
+        left: 36.5%;
+    }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1300px) {
+    .ajel-h6::before {
+        left: 35%;
+    }
+}
+
+@media screen and (min-width: 1100px) and (max-width: 1200px) {
+    .ajel-h6::before {
+        left: 34%;
+    }
+}
+
+@media screen and (min-width: 1050px) and (max-width: 1100px) {
+    .ajel-h6::before {
+        left: 33%;
+    }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1050px) {
+    .ajel-h6::before {
+        left: 32%;
+    }
+}
+
+@media screen and (min-width: 950px) and (max-width: 1000px) {
+    .ajel-h6::before {
+        left: 31%;
+    }
+}
+
+@media screen and (min-width: 900px) and (max-width: 950px) {
+    .ajel-h6::before {
+        left: 30%;
+    }
+}
+
+@media screen and (min-width: 850px) and (max-width: 900px) {
+    .ajel-h6::before {
+        left: 29%;
+    }
+}
+
+@media screen and (min-width: 800px) and (max-width: 850px) {
+    .ajel-h6::before {
+        left: 27.75%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 800px) {
+    .ajel-h6::before {
+        left: 26%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .ajel-h6::before {
+        display: none;
+    }
+
+    .ajel-h6::after {
+        display: none;
+    }
+}
+
+.ajel-main hr {
     width: 93%;
     margin-left: 5%;
     color: #000;
     background-color: #000;
-    border: 0.1px solid #999999;
+    /* border: 0.1px solid #999999; */
+    border: none;
+    border-bottom: 1px solid #696969;
     /* border: 0.1px solid #696969; */
 }
 
-.rjel-title {
+.ajel-title {
     text-align: center;
 }
 
-.rjel-content {
+.ajel-content {
     width: 90%;
     margin: auto;
 }
@@ -86,4 +195,81 @@
     font-size: 18px;
     line-height: 28px;
     font-weight: 500;
+}
+
+@media screen and (min-width: 300px) and (max-width: 768px) {
+    .que-div {
+        width: 85%;
+    }
+
+    .que-div h3 {
+        width: 90%;
+    }
+
+    .que-div button {
+        width: 10%;
+    }
+
+    .ajel-main hr {
+        /* width: 97.5%; */
+        /* width: 114%; */
+        /* margin-left: -0.5%; */
+        color: #000;
+        background-color: #000;
+        /* border: 0.1px solid #696969; */
+        border: none;
+        border-bottom: 1px solid #000;
+        margin-left: 0;
+    }
+
+    .ajel-content {
+        width: 100%;
+        margin: auto;
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width: 400px) {
+    .ajel-main hr {
+        width: 97.5%;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 700px) {
+    .ajel-main hr {
+        width: 92%;
+    }
+}
+
+@media screen and (min-width: 700px) and (max-width: 768px) {
+    .ajel-main hr {
+        width: 91%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1000px) {
+    .ajel-main hr {
+        width: 95%;
+    }
+
+    .que-div h3 {
+        width: 90%;
+    }
+
+    .que-div button {
+        width: 10%;
+    }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1300px) {
+    .ajel-main hr {
+        width: 94%;
+    }
+
+    .que-div h3 {
+        width: 90%;
+    }
+
+    .que-div button {
+        width: 10%;
+    }
 }

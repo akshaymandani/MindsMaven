@@ -7,7 +7,8 @@ const ReactJsEleventhData = [
     {
         id: 2,
         que: "What if I am not happy with the performance of the assigned AngularJS developer?",
-        ans: "If you are not happy with the performance of the assigned AngularJs developer then don’t worry at Tagline Infotech we will assign a new developer at no extra cost without any questions.",
+        // ans: "If you are not happy with the performance of the assigned AngularJs developer then don’t worry at Tagline Infotech we will assign a new developer at no extra cost without any questions.",
+        ans: "If you are not happy with the performance of the assigned AngularJs developer then don’t worry at MindsMaven IT Solutions we will assign a new developer at no extra cost without any questions.",
     },
     {
         id: 3,
@@ -17,11 +18,13 @@ const ReactJsEleventhData = [
     {
         id: 4,
         que: "Do you offer support and maintenance services after the deployment?",
-        ans: "Yes, At Tagline Infotech we have a team of experienced AngularJS programmers who provide support and maintenance services after the deployment to ensure the best performance of the application.",
+        // ans: "Yes, At Tagline Infotech we have a team of experienced AngularJS programmers who provide support and maintenance services after the deployment to ensure the best performance of the application.",
+        ans: "Yes, At MindsMaven IT Solutions we have a team of experienced AngularJS programmers who provide support and maintenance services after the deployment to ensure the best performance of the application.",
     },
     {
         id: 5,
-        que: "How does Tagline Infotech ensure the security of my project and its data?",
+        // que: "How does Tagline Infotech ensure the security of my project and its data?",
+        que: "How does MindsMaven IT Solutions ensure the security of my project and its data?",
         ans: "Our developers follow strict security protocols to ensure the security of client’s data and we also sign NDA with clients so that they can have full control over their code.",
     },
     {

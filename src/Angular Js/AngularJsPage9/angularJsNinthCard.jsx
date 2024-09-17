@@ -4,7 +4,7 @@ import correctImage from "../../images/correct.png"
 
 const ReactJsNinthCard = (props) => {
     return (
-        <div className='rjnc-main'>
+        <div className='ajnc-main'>
             <img src={correctImage} alt="" />
             <p>{props.content}</p>
         </div>

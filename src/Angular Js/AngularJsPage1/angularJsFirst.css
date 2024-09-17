@@ -28,7 +28,7 @@
     margin-top: 50px;
 }
 
-.ajfc-h {
+.ajfc-h6 {
     position: relative;
 }
 
@@ -80,10 +80,24 @@
         width: 100%;
         margin-top: 0px;
     }
+
+    .ajfc-h6::after {
+        display: none;
+    }
 }
 
 @media screen and (max-width:155px) {
     .ajfc-h4::after {
         display: none;
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width: 768px) {
+    .ajf-img {
+        display: none;
+    }
+
+    .ajf-content {
+        width: 90%;
     }
 }

@@ -80,7 +80,7 @@
     font-size: 19px;
 }
 
-@media screen and (max-width: 600px) {
+/* @media screen and (max-width: 600px) {
     .nlr-form form {
         display: flex;
         flex-direction: column;
@@ -90,5 +90,23 @@
 
     .nlf-input input {
         width: 300px;
+    }
+} */
+
+@media screen and (min-width: 300px) and (max-width: 768px) {
+    .nl-body {
+        margin-left: 10px;
+    }
+
+    .nlr-form form {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        gap: 10px;
+        /* margin-left: 10px; */
+    }
+
+    .nlf-input input {
+        width: 250px;
     }
 }

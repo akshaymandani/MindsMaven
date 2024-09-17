@@ -2,6 +2,7 @@
     width: 100%;
     padding: 50px 0;
     background: #f8f9fa;
+    margin-top: 20px;
 }
 
 .rjfo-main {
@@ -89,4 +90,32 @@
     border-radius: 8px;
     color: #ffffff;
     background-color: #d85b1a;
+}
+
+@media screen and (min-width: 300px) and (max-width: 768px) {
+    .rjfof-btn button {
+        padding: 12px 78px;
+    }
+
+    .rjfof-main form input {
+        font-size: 13px;
+    }
+
+    .rjfof-main form div input {
+        width: 94%;
+        padding: 12px 0px 12px 15px;
+    }
+
+    .rjfof-em {
+        width: 105%;
+    }
+
+    .rjfof-em input {
+        width: 100%;
+        padding: 12px 0px 12px 15px;
+    }
+
+    .rjfof-main form #message {
+        font-size: 13px;
+    }
 }

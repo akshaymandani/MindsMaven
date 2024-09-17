@@ -1,15 +1,15 @@
-.rjse-body {
+.ajse-body {
     width: 100%;
     font-family: poppins, sans-serif;
     margin-top: 75px;
 }
 
-.rjse-main {
+.ajse-main {
     width: 90%;
     margin: auto;
 }
 
-.rjse-title {
+.ajse-title {
     /* width: 100%; */
     width: 80%;
     text-align: center;
@@ -17,46 +17,177 @@
     margin-bottom: 50px;
 }
 
-.rjse-title h1 {
+.ajse-h6 {
+    position: relative;
+}
+
+.ajse-h6::before {
+    position: absolute;
+    content: '';
+    background: linear-gradient(to left, #d96122, #d9612200);
+    width: 98px;
+    height: 2px;
+    top: 50%;
+    left: 30.5%;
+    /* margin-right: -20px; */
+}
+
+.ajse-h6::after {
+    position: absolute;
+    content: '';
+    background: linear-gradient(to right, #d96122, #d9612200);
+    width: 98px;
+    height: 2px;
+    top: 50%;
+    margin-left: 10px;
+}
+
+@media screen and (min-width: 1500px) {
+    .ajse-h6::before {
+        left: 34.75%;
+    }
+}
+
+@media screen and (min-width: 1450px) and (max-width: 1500px) {
+    .ajse-h6::before {
+        left: 34.5%;
+    }
+}
+
+@media screen and (min-width: 1400px) and (max-width: 1450px) {
+    .ajse-h6::before {
+        left: 34%;
+    }
+}
+
+@media screen and (min-width: 1350px) and (max-width: 1400px) {
+    .ajse-h6::before {
+        left: 33.5%;
+    }
+}
+
+@media screen and (min-width: 1300px) and (max-width: 1350px) {
+    .ajse-h6::before {
+        left: 33%;
+    }
+}
+
+@media screen and (min-width: 1250px) and (max-width: 1300px) {
+    .ajse-h6::before {
+        left: 32.25%;
+    }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1250px) {
+    .ajse-h6::before {
+        left: 31.5%;
+    }
+}
+
+@media screen and (min-width: 1150px) and (max-width: 1200px) {
+    .ajse-h6::before {
+        left: 30.75%;
+    }
+}
+
+@media screen and (min-width: 1100px) and (max-width: 1150px) {
+    .ajse-h6::before {
+        left: 30%;
+    }
+}
+
+@media screen and (min-width: 1050px) and (max-width: 1100px) {
+    .ajse-h6::before {
+        left: 28.75%;
+    }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1050px) {
+    .ajse-h6::before {
+        left: 27.5%;
+    }
+}
+
+@media screen and (min-width: 950px) and (max-width: 1000px) {
+    .ajse-h6::before {
+        left: 26.25%;
+    }
+}
+
+@media screen and (min-width: 900px) and (max-width: 950px) {
+    .ajse-h6::before {
+        left: 25%;
+    }
+}
+
+@media screen and (min-width: 850px) and (max-width: 900px) {
+    .ajse-h6::before {
+        left: 23.5%;
+    }
+}
+
+@media screen and (min-width: 800px) and (max-width: 850px) {
+    .ajse-h6::before {
+        left: 22%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 800px) {
+    .ajse-h6::before {
+        left: 20%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .ajse-h6::before {
+        display: none;
+    }
+
+    .ajse-h6::after {
+        display: none;
+    }
+}
+
+.ajse-title h1 {
     /* line-height: 28px; */
     font-weight: 700;
 }
 
-.rjse-title h1 span {
+.ajse-title h1 span {
     color: #d96122;
 }
 
-.rjse-title p {
+.ajse-title p {
     color: #484848;
     font-size: 18px;
     line-height: 28px;
     font-weight: 500;
 }
 
-.rjse-content {
+.ajse-content {
     width: 100%;
 }
 
-.rjse-table {
+.ajse-table {
     width: 100%;
     border-collapse: collapse;
-    overflow-y: scroll;
+    /* overflow-y: scroll; */
 }
 
-.rjse-table thead {
+.ajse-table thead {
     background-color: rgba(217, 97, 34, .3);
     display: table-header-group;
     vertical-align: middle;
     border-color: inherit;
 }
 
-.rjse-table thead tr {
+.ajse-table thead tr {
     display: table-row;
     vertical-align: inherit;
     border-color: inherit;
 }
 
-.rjse-table thead tr th {
+.ajse-table thead tr th {
     display: table-cell;
     vertical-align: inherit;
     color: #fff;
@@ -68,31 +199,31 @@
     border-right: 1px solid #fff;
 }
 
-.rjse-table tbody {
+.ajse-table tbody {
     display: table-row-group;
     vertical-align: middle;
     border-color: inherit;
     /* background-color: #d96122; */
 }
 
-.rjse-table tbody tr {
+.ajse-table tbody tr {
     display: table-row;
     vertical-align: inherit;
     border-color: inherit;
     /* background-color: #22cdd9; */
 }
 
-.rjse-table tbody tr:nth-child(odd) {
+.ajse-table tbody tr:nth-child(odd) {
     background: #fff;
 }
 
-.rjse-table tbody tr:nth-child(even) {
+.ajse-table tbody tr:nth-child(even) {
     background: #f5f5f6;
     /* background-color: rgba(241, 241, 241, .5); */
     /* background: #c5c3c2; */
 }
 
-.rjse-table tbody tr td {
+.ajse-table tbody tr td {
     width: 25%;
     /* font-size: 19px; */
     font-size: 18px;
@@ -105,22 +236,22 @@
     vertical-align: inherit;
 }
 
-.rjse-table tbody tr td:not(:last-child) {
+.ajse-table tbody tr td:not(:last-child) {
     border-right: 1px solid #f1f1f1;
     /* border-right: 1px solid rgba(36, 36, 36, .1); */
 }
 
-.rjse-table tbody tr:nth-child(odd) td:nth-child(3) {
+.ajse-table tbody tr:nth-child(odd) td:nth-child(3) {
     background: #f7dfd3;
     /* background: rgba(217, 97, 34, .2); */
 }
 
-.rjse-table tbody tr:nth-child(even) td:nth-child(3) {
+.ajse-table tbody tr:nth-child(even) td:nth-child(3) {
     background: #facbb2;
     /* background: rgba(255, 162, 109, .5); */
 }
 
-.rjse-btn {
+.ajse-btn {
     width: 100%;
     margin-top: 30px;
     display: flex;
@@ -128,7 +259,7 @@
     justify-content: center;
 }
 
-.rjse-btn button {
+.ajse-btn button {
     cursor: pointer;
     padding: 6px 20px;
     font-size: 15px;
@@ -136,4 +267,17 @@
     border-radius: 6px;
     color: #fff;
     background-color: #d96122;
+}
+
+@media screen and (min-width: 300px) and (max-width: 768px) {
+    .ajse-content {
+        /* overflow-x: auto; */
+    }
+
+    .ajse-table {
+        display: block;
+        overflow-x: auto;
+        min-width: 300px;
+        white-space: nowrap;
+    }
 }

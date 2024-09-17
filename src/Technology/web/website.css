@@ -3,7 +3,8 @@
 }
 
 .ws-main {
-    width: 100%;
+    /* width: 100%; */
+    width: 95%;
     margin: auto;
 }
 
@@ -37,6 +38,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    gap: 10px;
 }
 
 .wss-leftmain div {
@@ -68,4 +70,106 @@
     height: 100px;
     aspect-ratio: 1/1;
     object-fit: contain;
+}
+
+/* @media (max-width: 1024px) {
+    .wss-leftmain div img {
+        width: 80px;
+        aspect-ratio: 1/1;
+        object-fit: contain;
+    }
+
+    .wss-rightmain div img {
+        width: 80px;
+        aspect-ratio: 1/1;
+        object-fit: contain;
+    }
+} */
+
+@media (max-width: 768px) {
+    .wss-leftmain {
+        gap: 30px;
+    }
+
+    .wss-leftmain div img {
+        width: 80px;
+        /* height: 100px; */
+        aspect-ratio: 1/1;
+        object-fit: contain;
+    }
+
+    .wss-rightmain {
+        gap: 30px;
+    }
+
+    .wss-rightmain div img {
+        width: 80px;
+        /* height: 100px; */
+        aspect-ratio: 1/1;
+        object-fit: contain;
+    }
+}
+
+@media (max-width: 494px) {
+    .ws-submain {
+        width: 80%;
+    }
+
+    .ws-mainText {
+        /* width: 87%; */
+    }
+
+    .wss-leftmain {
+        gap: 50px;
+    }
+
+    .wss-leftmain div img {
+        width: 80px;
+        /* height: 100px; */
+        aspect-ratio: 1/1;
+        object-fit: contain;
+    }
+
+    .wss-rightmain {
+        gap: 50px;
+    }
+
+    .wss-rightmain div img {
+        width: 80px;
+        /* height: 100px; */
+        aspect-ratio: 1/1;
+        object-fit: contain;
+    }
+}
+
+@media (max-width: 369px) {
+    .ws-submain {
+        width: 80%;
+    }
+
+    .ws-mainText {
+        /* width: 87%; */
+    }
+
+    .wss-leftmain {
+        gap: 20px;
+    }
+
+    .wss-leftmain div img {
+        width: 80px;
+        /* height: 100px; */
+        aspect-ratio: 1/1;
+        object-fit: contain;
+    }
+
+    .wss-rightmain {
+        gap: 20px;
+    }
+
+    .wss-rightmain div img {
+        width: 80px;
+        /* height: 100px; */
+        aspect-ratio: 1/1;
+        object-fit: contain;
+    }
 }

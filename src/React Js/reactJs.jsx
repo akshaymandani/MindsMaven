@@ -29,8 +29,8 @@ const ReactJsMainPage = () => {
         <ReactJsThird />
         <ReactJsFourth />
         <ReactJsFifth />
-        <ReactJsSixth />
-        {/* <ReactJsSeventh /> */}
+        {/* <ReactJsSixth /> */}
+        <ReactJsSeventh />
         <ReactJsEighth />
         <ReactJsNinth />
         <ReactJsTenth />

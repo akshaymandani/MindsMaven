@@ -11,6 +11,7 @@ const MainServicePage = () => {
       <div className='msp-main'>
         <div className='msp-title'>
           <h1>Our Services</h1>
+          <span className="tech-span"></span>
         </div>
         <div className='msp-content'>
           <div className='msp-div msp-div1'>

@@ -1,33 +1,51 @@
-import logo from './logo.svg';
+import "@fortawesome/fontawesome-free/css/all.min.css";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import './App.css';
 import ContactUs from './contact us/contactUs';
-import Footer from './footer/footer';
-import Technology from './Technology/technology';
 import Developer from './developer/developer';
-import NewsLetter from './newsLetter/newsLetter';
-import "@fortawesome/fontawesome-free/css/all.min.css";
+import MainHomePage from './Home/mainHomePage/mainHomePage';
 import ContactPage from "./mainContactPage/contactPage";
 import ReactJsMainPage from './React Js/reactJs';
-import WorkFlow from './commonComponent/cc1/workFlow';
-import StepsToHire from './commonComponent/cc2/stepsToHire';
-import MainHomePage from './Home/mainHomePage/mainHomePage';
-import AngularJsMainPage from './Angular Js/angularJs';
+import AngularJsMainPage from "./Angular Js/angularJs";
+import Technology from './Technology/technology';
 
 function App() {
   return (
-    <div className="App">
-      <AngularJsMainPage />
-      {/* <MainHomePage /> */}
-      {/* <StepsToHire /> */}
-      {/* <WorkFlow /> */}
-      {/* <ReactJsMainPage /> */}
-      {/* <ContactPage /> */}
-      {/* <NewsLetter /> */}
-      {/* <Developer /> */}
-      {/* <Technology /> */}
-      {/* <ContactUs /> */}
-      {/* <Footer /> */}
-    </div>
+    <>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<MainHomePage />} />
+          <Route path="/contact" element={<ContactPage />} />
+          <Route path="/react" element={<ReactJsMainPage />} />
+          <Route path="/angular" element={<AngularJsMainPage />} />
+          <Route path="/technology" element={<Technology />} />
+          <Route path="/developer" element={<Developer />} />
+          <Route path="/contactUs" element={<ContactUs />} />
+
+        </Routes>
+      </BrowserRouter>
+      {/* <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<NavbarSection />}>
+        <Route index element={<MainHomePage />} />
+        <Route path="AngularJsMainPage" element={<AngularJsMainPage />} />
+          <Route path="*" element={<MainHomePage/>} />
+        </Route>
+      </Routes>
+    </BrowserRouter> */}
+      <div className="App">
+        {/* <MainHomePage /> */}
+        {/* <StepsToHire /> */}
+        {/* <WorkFlow /> */}
+        {/* <ReactJsMainPage /> */}
+        {/* <ContactPage /> */}
+        {/* <NewsLetter /> */}
+        {/* <Developer /> */}
+        {/* <Technology /> */}
+        {/* <ContactUs /> */}
+        {/* <Footer /> */}
+      </div>
+    </>
   );
 }
 

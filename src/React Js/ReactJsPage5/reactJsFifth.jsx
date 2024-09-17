@@ -11,7 +11,8 @@ const ReactJsFifth = () => {
         <div className='rjfi-body'>
             <div className='rjfi-main'>
                 <div className='rjfi-title'>
-                    <h6>05. DEVELOPERS TO SUIT YOUR BUSINESS REQUIREMENTS</h6>
+                    {/* <h6>05. DEVELOPERS TO SUIT YOUR BUSINESS REQUIREMENTS</h6> */}
+                    <h6 className='rjfi-h6'>04. DEVELOPERS TO SUIT YOUR BUSINESS REQUIREMENTS</h6>
                     <h1>Our ReactJS Development <span>Workflow</span></h1>
                     <p>Explore the structured ReactJs development workflow that we follow to build high-quality web applications.</p>
                 </div>
@@ -19,9 +20,9 @@ const ReactJsFifth = () => {
                     {reactJsFifthData.map((card, index) => (
                         <WorkFlow1
                             key={index}
-                            arrowImage = {index % 2 === 0 ? whiteArrowImage : orangeArrowImage}
-                            title ={card.title}
-                            imageUrl = {card.imageUrl}
+                            arrowImage={index % 2 === 0 ? whiteArrowImage : orangeArrowImage}
+                            title={card.title}
+                            imageUrl={card.imageUrl}
                             description={card.description}
                         />
                     ))}

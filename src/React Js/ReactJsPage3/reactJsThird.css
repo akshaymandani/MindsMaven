@@ -4,14 +4,98 @@
 
 .rjt-main {
     width: 75%;
+    /* width: 85%; */
     margin: auto;
 }
 
 .rjt-top {
-    width: 80%;
+    width: 70%;
     text-align: center;
     margin: auto;
     margin-bottom: 50px;
+}
+
+.rjt-h6 {
+    position: relative;
+}
+
+.rjt-h6::before {
+    position: absolute;
+    content: '';
+    background: linear-gradient(to left, #d96122, #d9612200);
+    width: 98px;
+    height: 2px;
+    top: 50%;
+    left: 32.8%;
+    /* margin-right: -20px; */
+}
+
+.rjt-h6::after {
+    position: absolute;
+    content: '';
+    background: linear-gradient(to right, #d96122, #d9612200);
+    width: 98px;
+    height: 2px;
+    top: 50%;
+    margin-left: 10px;
+}
+
+@media screen and (min-width: 1500px) {
+    .rjt-h6::before {
+        left: 30.5%;
+    }
+}
+
+@media screen and (min-width: 1300px) and (max-width: 1500px) {
+    .rjt-h6::before {
+        left: 28.5%;
+    }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1300px) {
+    .rjt-h6::before {
+        left: 27%;
+    }
+}
+
+@media screen and (min-width: 1100px) and (max-width: 1200px) {
+    .rjt-h6::before {
+        left: 36.75%;
+    }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1100px) {
+    .rjt-h6::before {
+        left: 35.5%;
+    }
+}
+
+@media screen and (min-width: 900px) and (max-width: 1000px) {
+    .rjt-h6::before {
+        left: 34%;
+    }
+}
+
+@media screen and (min-width: 800px) and (max-width: 900px) {
+    .rjt-h6::before {
+        left: 32%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 800px) {
+    .rjt-h6::before {
+        left: 30%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .rjt-h6::before {
+        display: none;
+    }
+
+    .rjt-h6::after {
+        display: none;
+    }
 }
 
 .rjt-top h1 {
@@ -28,50 +112,14 @@
 }
 
 .rjt-bottom {
-    /* display: flex; */
-    /* flex-wrap: wrap;
-    justify-content: space-between; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     /* gap: 20px; */
 }
 
-@media screen and (min-width: 768px) {
-    .rjt-bottom {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-    }
-
-    .rjtb-left {
-        width: 22%;
-    }
-
-    .rjtb-center {
-        width: 33%;
-    }
-
-    .rjtb-right {
-        width: 33%;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .rjtb-left {
-        width: 100%;
-    }
-
-    .rjtb-center {
-        width: 100%;
-        margin-top: 15px;
-    }
-
-    .rjtb-right {
-        width: 100%;
-        margin-top: 15px;
-    }
-}
-
 .rjtb-left {
-    /* width: 22%; */
+    width: 20%;
 }
 
 .rjtb-left div {
@@ -82,7 +130,7 @@
 }
 
 .rjtb-center {
-    /* width: 33%; */
+    width: 33%;
     padding: 0px 25px 25px 25px;
     border: 2px solid #d96122;
     border-radius: 10px;
@@ -123,7 +171,7 @@
 }
 
 .rjtb-right {
-    /* width: 33%; */
+    width: 33%;
     padding: 0px 25px 25px 25px;
     border: 2px solid #dfdfdf;
     /* border: 2px solid #343535; */
@@ -182,5 +230,102 @@
     background-color: #d96122;
     border: none;
     border-radius: 10px;
-    margin-bottom: 25px;
+}
+
+@media screen and (max-width: 500px) {
+    .rjtb-left {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 501px) and (max-width: 768px) {
+    .rjtb-left {
+        width: 92.5%;
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width: 768px) {
+    .rjt-main {
+        width: 90%;
+    }
+
+    .rjt-top {
+        width: 100%;
+    }
+
+    .rjt-bottom {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    /* .rjtb-left {
+        width: 100%;
+    } */
+
+    .rjtb-center {
+        width: 85%;
+    }
+
+    .rjtb-right {
+        width: 85%;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .rjt-main {
+        width: 100%;
+    }
+
+    .rjt-top {
+        width: 100%;
+    }
+
+    .rjt-bottom {
+        display: flex;
+        /* flex-wrap: wrap; */
+        /* justify-content: space-between; */
+        gap: 20px;
+        margin: 10px;
+    }
+
+    .rjtb-left {
+        width: 45%;
+    }
+
+    .rjtb-center {
+        width: 40%;
+    }
+
+    .rjtb-right {
+        width: 40%;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+    .rjt-main {
+        width: 100%;
+    }
+
+    .rjt-top {
+        width: 100%;
+    }
+
+    .rjt-bottom {
+        display: flex;
+        gap: 20px;
+        margin: 10px;
+    }
+
+    .rjtb-left {
+        width: 45%;
+    }
+
+    .rjtb-center {
+        width: 40%;
+    }
+
+    .rjtb-right {
+        width: 40%;
+    }
 }

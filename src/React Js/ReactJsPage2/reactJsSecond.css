@@ -36,13 +36,73 @@
     margin-left: 10px;
 }
 
-/* @media screen and (max-width: 1500px) {
+@media screen and (min-width: 1500px) {
+    .rjst-h6::before {
+        left: 31%;
+    }
+}
+
+@media screen and (min-width: 1400px) and (max-width: 1500px) {
     .rjst-h6::before {
         left: 30%;
     }
-} */
+}
 
-@media screen and (max-width:900px) {
+@media screen and (min-width: 1300px) and (max-width: 1400px) {
+    .rjst-h6::before {
+        left: 29%;
+    }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1300px) {
+    .rjst-h6::before {
+        left: 27.5%;
+    }
+}
+
+@media screen and (min-width: 1100px) and (max-width: 1200px) {
+    .rjst-h6::before {
+        left: 25.5%;
+    }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1100px) {
+    .rjst-h6::before {
+        left: 23%;
+    }
+}
+
+@media screen and (min-width: 950px) and (max-width: 1000px) {
+    .rjst-h6::before {
+        left: 21.5%;
+    }
+}
+
+@media screen and (min-width: 900px) and (max-width: 950px) {
+    .rjst-h6::before {
+        left: 20%;
+    }
+}
+
+@media screen and (min-width: 850px) and (max-width: 900px) {
+    .rjst-h6::before {
+        left: 18%;
+    }
+}
+
+@media screen and (min-width: 800px) and (max-width: 850px) {
+    .rjst-h6::before {
+        left: 16%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 800px) {
+    .rjst-h6::before {
+        left: 14.5%;
+    }
+}
+
+@media screen and (max-width: 768px) {
     .rjst-h6::before {
         display: none;
     }
@@ -51,6 +111,16 @@
         display: none;
     }
 }
+
+/* @media screen and (max-width:900px) {
+    .rjst-h6::before {
+        display: none;
+    }
+
+    .rjst-h6::after {
+        display: none;
+    }
+} */
 
 .rjs-top h1 {
     margin-top: -18px;
@@ -73,14 +143,15 @@
 }
 
 .rjs-btn {
-    width: auto;
+    /* width: auto; */
+    width: 100%;
     margin: auto;
     /* margin: 50px auto; */
 }
 
 .rjs-btn button {
     /* width: 100%; */
-    margin: 50px 36%;
+    margin: 50px 37%;
     /* margin: 50px 460px; */
     padding: 15px 22px;
     font-size: 17px;
@@ -99,5 +170,16 @@
     .rjs-btn button {
         width: 80%;
         margin: 50px auto;
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width: 768px) {
+    .rjs-btn {
+        width: 100%;
+    }
+
+    .rjs-btn button {
+        width: 100%;
+        margin: 50px 0;
     }
 }

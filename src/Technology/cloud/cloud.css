@@ -33,3 +33,27 @@
     aspect-ratio: 1/1;
     object-fit: contain;
 }
+
+@media (max-width: 494px) {
+    .cloud-submain {
+        width: 80%;
+    }
+
+    .cloud-submain div img {
+        width: 80px;
+        aspect-ratio: 1/1;
+        object-fit: contain;
+    }
+}
+
+@media (max-width: 369px) {
+    .cloud-submain {
+        width: 80%;
+    }
+
+    .cloud-submain div img {
+        width: 80px;
+        aspect-ratio: 1/1;
+        object-fit: contain;
+    }
+}

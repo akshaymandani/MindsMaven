@@ -1,28 +1,117 @@
-.rjn-body {
+.ajn-body {
     width: 100%;
 }
 
-.rjn-main {
+.ajn-main {
     width: 90%;
     margin: auto;
 }
 
-.rjn-title {
+.ajn-title {
     text-align: center;
 }
 
-.rjn-title h1 span {
+.ajn-h6 {
+    position: relative;
+}
+
+.ajn-h6::before {
+    position: absolute;
+    content: '';
+    background: linear-gradient(to left, #d96122, #d9612200);
+    width: 98px;
+    height: 2px;
+    top: 50%;
+    left: 30.5%;
+    /* margin-right: -20px; */
+}
+
+.ajn-h6::after {
+    position: absolute;
+    content: '';
+    background: linear-gradient(to right, #d96122, #d9612200);
+    width: 98px;
+    height: 2px;
+    top: 50%;
+    margin-left: 10px;
+}
+
+@media screen and (min-width: 1500px) {
+    .ajn-h6::before {
+        left: 39.75%;
+    }
+}
+
+@media screen and (min-width: 1400px) and (max-width: 1500px) {
+    .ajn-h6::before {
+        left: 39.5%;
+    }
+}
+
+@media screen and (min-width: 1300px) and (max-width: 1400px) {
+    .ajn-h6::before {
+        left: 38.5%;
+    }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1300px) {
+    .ajn-h6::before {
+        left: 38%;
+    }
+}
+
+@media screen and (min-width: 1100px) and (max-width: 1200px) {
+    .ajn-h6::before {
+        left: 36.5%;
+    }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1100px) {
+    .ajn-h6::before {
+        left: 35.5%;
+    }
+}
+
+@media screen and (min-width: 900px) and (max-width: 1000px) {
+    .ajn-h6::before {
+        left: 34%;
+    }
+}
+
+@media screen and (min-width: 800px) and (max-width: 900px) {
+    .ajn-h6::before {
+        left: 32%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 800px) {
+    .ajn-h6::before {
+        left: 30%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .ajn-h6::before {
+        display: none;
+    }
+
+    .ajn-h6::after {
+        display: none;
+    }
+}
+
+.ajn-title h1 span {
     color: #d96122;
 }
 
-.rjn-content {
+.ajn-content {
     display: flex;
     flex-wrap: wrap;
     /* justify-content: space-between; */
     gap: 50px 40px;
 }
 
-.rjn-content div {
+.ajn-content div {
     position: relative;
     width: 575px;
     /* width: 50%; */
@@ -31,9 +120,21 @@
     /* margin-bottom: 46px; */
 }
 
-@media screen and (max-width: 768px) {
-    .rjn-content div {
-        /* flex: 0 0 50%; */
+/* @media screen and (max-width: 768px) {
+    .ajn-content div {
+        flex: 0 0 50%;
         max-width: 100%;
+    }
+} */
+
+@media screen and (min-width: 300px) and (max-width: 768px) {
+    .ajn-content {
+        width: 100%;
+        margin-left: -2%;
+    }
+
+    .ajn-content div {
+        width: 90%;
+        padding-right: 20px;
     }
 }

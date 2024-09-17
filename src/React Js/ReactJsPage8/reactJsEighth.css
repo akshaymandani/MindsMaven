@@ -2,50 +2,43 @@
     /* display: flex; */
     width: 100%;
     margin-bottom: 100px;
-    margin-top: 30px;
 }
 
 .rje-main {
     width: 95%;
     margin: auto;
-    /* display: flex;
+    display: flex;
     flex-wrap: wrap;
-    justify-content: space-between; */
-}
-
-@media screen and (min-width: 500px) {
-    .rje-main {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-    }
-
-    .rje-title {
-        position: sticky;
-        top: 0;
-        height: 100%;
-        flex: 0 0 50%;
-        max-width: 50%;
-    }
-
-    .rje-content {
-        flex-grow: 1;
-        flex: 0 0 50%;
-        max-width: 50%;
-    }
+    justify-content: space-between;
 }
 
 .rje-title {
-    /* position: sticky;
+    position: sticky;
     top: 0;
-    height: 100%; */
+    height: 100%;
     /* width: 40%; */
     /* height: 300px;
     width: 500px;
     background-color: lightblue; */
     /* padding: 20px; */
-    /* flex: 0 0 50%;
-    max-width: 50%; */
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+.rje-h6 {
+    position: relative;
+}
+
+.rje-h6::after {
+    position: absolute;
+    content: '';
+    background: linear-gradient(to right, #d96122, #d9612200);
+    width: 98px;
+    height: 2px;
+    margin-top: 5px;
+    /* top: 5%; */
+    /* top: 50%; */
+    margin-left: 10px;
 }
 
 .rje-title h1 {
@@ -85,7 +78,32 @@
 }
 
 .rje-content {
-    /* flex-grow: 1;
+    flex-grow: 1;
     flex: 0 0 50%;
-    max-width: 50%; */
+    max-width: 50%;
+}
+
+@media screen and (min-width: 300px) and (max-width: 768px) {
+    .rje-main {
+        display: block;
+        /* flex-direction: column; */
+    }
+
+    .rje-title {
+        position: static;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .rje-content {
+        /* position: relative; */
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .rje-h6::after {
+        display: none;
+    }
 }

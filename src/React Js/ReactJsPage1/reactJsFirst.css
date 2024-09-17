@@ -24,7 +24,7 @@
     margin-top: 50px;
 }
 
-.rjfc-h {
+.rjfc-h6 {
     position: relative;
 }
 
@@ -74,10 +74,24 @@
         width: 100%;
         margin-top: 0px;
     }
+
+    .rjfc-h6::after {
+        display: none;
+    }
 }
 
 @media screen and (max-width:155px) {
     .rjfc-h4::after {
         display: none;
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width: 768px) {
+    .rjf-img {
+        display: none;
+    }
+
+    .rjf-content {
+        width: 90%;
     }
 }

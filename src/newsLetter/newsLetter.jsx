@@ -18,7 +18,7 @@ const NewsLetter = () => {
   return (
     <div className="nl-body">
       <div className="nl-left">
-        <h1>Get latest from MindsMaven IT Solutions</h1>
+        <h1>Get latest from Thehirehub infotech</h1>
         <p>
           Share your email so we can send you <span>guides</span> and{" "}
           <span>industry news</span>.

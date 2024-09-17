@@ -1,4 +1,4 @@
-.rjfo-body {
+/* .rjfo-body {
     width: 100%;
     padding: 50px 0;
     background: #f8f9fa;
@@ -31,9 +31,9 @@
     border-radius: 10px;
     background: #ffffff;
     box-shadow: 0 6px 21px rgb(0 0 0/8%);
-    /* box-shadow: 1px 1px 10px #d2d2d2, -1px -1px 10px #d2d2d2; */
-    /* box-shadow: 1px 1px 5px #c3bebe, -1px -1px 5px #c1bdbd; */
-    /* background-color: #ffffff; */
+    box-shadow: 1px 1px 10px #d2d2d2, -1px -1px 10px #d2d2d2;
+    box-shadow: 1px 1px 5px #c3bebe, -1px -1px 5px #c1bdbd;
+    background-color: #ffffff;
 }
 
 .rjfof-main form {
@@ -75,9 +75,9 @@
 
 .rjfof-btn {
     width: 100%;
-    /* display: flex;
+    display: flex;
     flex-wrap: wrap;
-    justify-content: center; */
+    justify-content: center;
 }
 
 .rjfof-btn button {
@@ -89,4 +89,140 @@
     border-radius: 8px;
     color: #ffffff;
     background-color: #d85b1a;
+}
+
+@media screen and (min-width: 300px) and (max-width: 768px) {
+    .ajfof-btn button {
+        padding: 12px 78px;
+    }
+
+    .ajfof-main form div input {
+        width: 98.5%;
+        padding: 12px 0px 12px 15px;
+    }
+
+    .ajfof-em {
+        width: 105%;
+    }
+
+    .ajfof-em input {
+        width: 100%;
+        padding: 12px 0px 12px 15px;
+    }
+} */
+
+
+
+.ajfo-body {
+    width: 100%;
+    padding: 50px 0;
+    background: #f8f9fa;
+    margin-top: 20px;
+}
+
+.ajfo-main {
+    width: 80%;
+    margin: auto;
+}
+
+.ajfo-title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.ajfo-title p {
+    font-size: 17px;
+    max-width: 504px;
+    margin: auto;
+}
+
+.ajfo-form {
+    width: 100%;
+    margin: auto;
+}
+
+.ajfof-main {
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    background: #ffffff;
+    box-shadow: 0 6px 21px rgb(0 0 0/8%);
+    /* box-shadow: 1px 1px 10px #d2d2d2, -1px -1px 10px #d2d2d2; */
+    /* box-shadow: 1px 1px 5px #c3bebe, -1px -1px 5px #c1bdbd; */
+    /* background-color: #ffffff; */
+}
+
+.ajfof-main form {
+    width: 80%;
+    margin: auto;
+    padding: 50px 0px;
+}
+
+.ajfof-main form input {
+    width: 98.5%;
+    padding: 12px 0px 12px 15px;
+    font-size: 17px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #000;
+}
+
+.ajfof-main form div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 3%;
+}
+
+.ajfof-main form div input {
+    width: 45%;
+    padding: 12px 0px 12px 15px;
+}
+
+.ajfof-main form #message {
+    margin-top: 3%;
+    width: 98.5%;
+    padding: 12px 0px 12px 15px;
+    font-size: 17px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #000;
+}
+
+.ajfof-btn {
+    width: 100%;
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: center; */
+}
+
+.ajfof-btn button {
+    cursor: pointer;
+    font-size: 17px;
+    padding: 12px 168px;
+    margin: auto;
+    border: none;
+    border-radius: 8px;
+    color: #ffffff;
+    background-color: #d85b1a;
+}
+
+@media screen and (min-width: 300px) and (max-width: 768px) {
+    .ajfof-btn button {
+        padding: 12px 78px;
+    }
+
+    .ajfof-main form div input {
+        width: 98.5%;
+        padding: 12px 0px 12px 15px;
+    }
+
+    .ajfof-em {
+        width: 105%;
+    }
+
+    .ajfof-em input {
+        width: 100%;
+        padding: 12px 0px 12px 15px;
+    }
 }

@@ -15,6 +15,137 @@
     margin-bottom: 50px;
 }
 
+.rjse-h6 {
+    position: relative;
+}
+
+.rjse-h6::before {
+    position: absolute;
+    content: '';
+    background: linear-gradient(to left, #d96122, #d9612200);
+    width: 98px;
+    height: 2px;
+    top: 47%;
+    left: 30.5%;
+    /* margin-right: -20px; */
+}
+
+.rjse-h6::after {
+    position: absolute;
+    content: '';
+    background: linear-gradient(to right, #d96122, #d9612200);
+    width: 98px;
+    height: 2px;
+    top: 47%;
+    margin-left: 10px;
+}
+
+@media screen and (min-width: 1500px) {
+    .rjse-h6::before {
+        left: 37.75%;
+    }
+}
+
+@media screen and (min-width: 1450px) and (max-width: 1500px) {
+    .rjse-h6::before {
+        left: 38%;
+    }
+}
+
+@media screen and (min-width: 1400px) and (max-width: 1450px) {
+    .rjse-h6::before {
+        left: 37.5%;
+    }
+}
+
+@media screen and (min-width: 1350px) and (max-width: 1400px) {
+    .rjse-h6::before {
+        left: 37%;
+    }
+}
+
+@media screen and (min-width: 1300px) and (max-width: 1350px) {
+    .rjse-h6::before {
+        left: 36.5%;
+    }
+}
+
+@media screen and (min-width: 1250px) and (max-width: 1300px) {
+    .rjse-h6::before {
+        left: 36%;
+    }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1250px) {
+    .rjse-h6::before {
+        left: 35.5%;
+    }
+}
+
+@media screen and (min-width: 1150px) and (max-width: 1200px) {
+    .rjse-h6::before {
+        left: 35%;
+    }
+}
+
+@media screen and (min-width: 1100px) and (max-width: 1150px) {
+    .rjse-h6::before {
+        left: 34%;
+    }
+}
+
+@media screen and (min-width: 1050px) and (max-width: 1100px) {
+    .rjse-h6::before {
+        left: 33.5%;
+    }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1050px) {
+    .rjse-h6::before {
+        left: 32.5%;
+    }
+}
+
+@media screen and (min-width: 950px) and (max-width: 1000px) {
+    .rjse-h6::before {
+        left: 31.5%;
+    }
+}
+
+@media screen and (min-width: 900px) and (max-width: 950px) {
+    .rjse-h6::before {
+        left: 30.5%;
+    }
+}
+
+@media screen and (min-width: 850px) and (max-width: 900px) {
+    .rjse-h6::before {
+        left: 29.25%;
+    }
+}
+
+@media screen and (min-width: 800px) and (max-width: 850px) {
+    .rjse-h6::before {
+        left: 28.25%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 800px) {
+    .rjse-h6::before {
+        left: 27.5%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .rjse-h6::before {
+        display: none;
+    }
+
+    .rjse-h6::after {
+        display: none;
+    }
+}
+
 .rjse-content {
     width: 100%;
 }
@@ -22,7 +153,7 @@
 .rjse-table {
     width: 100%;
     border-collapse: collapse;
-    overflow-y: scroll;
+    /* overflow-x: hidden; */
 }
 
 .rjse-table thead {
@@ -118,4 +249,17 @@
     border-radius: 6px;
     color: #fff;
     background-color: #d96122;
+}
+
+@media screen and (min-width: 300px) and (max-width: 768px) {
+    .rjse-content {
+        /* overflow-x: auto; */
+    }
+
+    .rjse-table {
+        display: block;
+        overflow-x: auto;
+        min-width: 300px;
+        white-space: nowrap;
+    }
 }

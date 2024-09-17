@@ -12,14 +12,14 @@ const ReactJsEleventh = () => {
   };
 
   return (
-    <div className='rjel-body'>
-      <div className='rjel-main'>
-        <div className='rjel-title'>
+    <div className='ajel-body'>
+      <div className='ajel-main'>
+        <div className='ajel-title'>
           {/* <h6>11. FIELDS OF EXPERTISE</h6> */}
-          <h6>09. FIELDS OF EXPERTISE</h6>
+          <h6 className='ajel-h6'>09. FIELDS OF EXPERTISE</h6>
           <h1><span>Frequently</span> Asked Questions</h1>
         </div>
-        <div className='rjel-content'>
+        <div className='ajel-content'>
           {ReactJsEleventhData.map((faq, index) => (
             <ReactJsEleventhCard
               key={index}
