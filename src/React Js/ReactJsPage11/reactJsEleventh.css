@@ -167,10 +167,25 @@
     height: auto;
     border: none;
     background-color: transparent;
+    cursor: pointer;
+}
+
+.rjel-content>*:last-child>.que-div {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-bottom: 1px solid #000;
+    padding: 0 20px;
+    cursor: pointer;
 }
 
 @media screen and (min-width: 300px) and (max-width: 768px) {
     .que-div {
+        width: 85%;
+    }
+
+    .rjel-content>*:last-child>.que-div {
         width: 85%;
     }
 

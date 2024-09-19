@@ -30,7 +30,7 @@ const ReactJsEleventh = () => {
             />
           ))}
         </div>
-        <hr />
+        {/* <hr /> */}
       </div>
     </div>
   )
