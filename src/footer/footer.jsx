@@ -4,8 +4,13 @@ import { FaLightbulb, FaPhone } from "react-icons/fa6";
 import { MdDesignServices, MdMail } from "react-icons/md";
 import { Link } from "react-router-dom";
 import "./footer.css";
+import { FaRegCopyright } from "react-icons/fa6";
 
 const Footer = () => {
+  const today = new Date();
+  // const month = today.getMonth() + 1;
+  const year = today.getFullYear();
+  // const date = today.getDate();
   return (
     <div className="ft-body">
       <div className="ft-main">
@@ -169,6 +174,12 @@ const Footer = () => {
             </Link>
           </p>
         </div>
+      </div>
+      <div className="ft-main-bottom">
+        <p>
+          {/* <icon><FaRegCopyright /></icon> <span>2024</span> All rights reserved by <span>MindsMaven IT Solutions</span> */}
+          <icon><FaRegCopyright /></icon> <span>{year}</span> All rights reserved by <span>MindsMaven IT Solutions</span>
+        </p>
       </div>
     </div>
   );
