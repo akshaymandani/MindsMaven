@@ -1,6 +1,8 @@
 .rjse-body {
     width: 100%;
     font-family: poppins, sans-serif;
+    /* margin-bottom: 30px; */
+    margin-bottom: 50px;
 }
 
 .rjse-main {

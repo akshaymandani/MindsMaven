@@ -14,6 +14,12 @@
     margin-bottom: 50px;
 }
 
+@media screen and (max-width: 768px) {
+    .ajt-top {
+        width: 90%;
+    }
+}
+
 .ajtt-h6 {
     position: relative;
 }

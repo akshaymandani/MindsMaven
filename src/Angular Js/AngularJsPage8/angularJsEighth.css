@@ -64,6 +64,12 @@
     margin-left: 10px;
 }
 
+@media screen and (max-width: 768px) {
+    .aje-h6::after {
+        display: none;
+    }
+}
+
 .aje-title h1 {
     padding-right: 10px;
     font-size: 32px;
