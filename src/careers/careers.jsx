@@ -3,6 +3,8 @@ import "./careers.css"
 import CareerHeader from './careerHeader/careerHeader';
 import NavbarSection from '../Home/navbarSection/navbarSection';
 import Footer from '../footer/footer';
+import ContactUs from '../contact us/contactUs';
+import NewsLetter from '../newsLetter/newsLetter';
 
 const Careers = () => {
   return (
@@ -12,6 +14,8 @@ const Careers = () => {
       </header>
       <main>
         <CareerHeader />
+        <ContactUs />
+        <NewsLetter />
       </main>
       <footer>
         <Footer />

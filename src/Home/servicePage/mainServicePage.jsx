@@ -4,6 +4,7 @@ import MainServicePageData from './mainServicePageData';
 import MainServicePageCard from './mainServicePageCard';
 import ServiceBgImage from "../../images/ellipse-mega.webp";
 // import ServiceBgImage from "../../images/ellipse-mega.svg";
+import { Link } from "react-router-dom"
 
 const MainServicePage = () => {
   return (
@@ -23,7 +24,8 @@ const MainServicePage = () => {
           <div className='msp-div msp-div3'>
             <h6>Don't know what to choose? <span>Drop us a line.</span></h6>
             <img src={ServiceBgImage} alt="" />
-            <a href="#">Contact Us</a>
+            {/* <a href="#">Contact Us</a> */}
+            <Link to="/aboutus" className='mspd-link'><button className='mspdl-btn'>Contact Us</button></Link>
           </div>
         </div>
       </div>

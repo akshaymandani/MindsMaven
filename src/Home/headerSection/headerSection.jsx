@@ -2,6 +2,7 @@ import React from 'react'
 import "./headerSection.css"
 // import MMLogo from "../../images/MindsMaven Logo.png"
 import NavbarSection from '../navbarSection/navbarSection'
+import { Link } from "react-router-dom"
 
 const HeaderSection = () => {
   return (
@@ -35,7 +36,8 @@ const HeaderSection = () => {
           {/* <h1>Software Development Company & IT Consultancy<br />Serving <span>Start-UPs To Fortune 500</span></h1> */}
           <h1>Software Development Company & IT Consultancy Serving <span>Start-UP</span></h1>
           <p>With the help of Innovation and Technology, We give you the power to change the world with your ideas.</p>
-          <a href="#">Schedule a meeting</a>
+          {/* <a href="#">Schedule a meeting</a> */}
+          <Link to="/" className='hsc-link'><div className='hsc-div'>Schedule a meeting</div></Link>
         </div>
       </div>
     </div>

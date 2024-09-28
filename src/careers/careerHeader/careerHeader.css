@@ -3,6 +3,7 @@
     background: #F6F6F6;
     position: relative;
     padding-bottom: 100px;
+    margin-bottom: 100px;
 }
 
 @media only screen and (max-width: 768px) {

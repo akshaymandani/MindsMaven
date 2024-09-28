@@ -20,7 +20,8 @@ const Developer = () => {
                   <div>
                     <img src={reactJsLogo} alt="" />
                     <br />
-                    <a href="#">
+                    {/* <a href="#"> */}
+                    <a href="">
                       Hire ReactJs
                       <br />
                       Developer
@@ -29,7 +30,8 @@ const Developer = () => {
                   <div>
                     <img src={reactJsLogo} alt="" />
                     <br />
-                    <a href="#">
+                    {/* <a href="#"> */}
+                    <a href="">
                       Hire AngularJs
                       <br />
                       Developer
@@ -43,7 +45,8 @@ const Developer = () => {
                   <div>
                     <img src={reactJsLogo} alt="" />
                     <br />
-                    <a href="#">
+                    {/* <a href="#"> */}
+                    <a href="">
                       Hire React Native
                       <br />
                       Developer
@@ -52,7 +55,8 @@ const Developer = () => {
                   <div>
                     <img src={reactJsLogo} alt="" />
                     <br />
-                    <a href="#">
+                    {/* <a href="#"> */}
+                    <a href="">
                       Hire Flutter
                       <br />
                       Developer
@@ -67,7 +71,8 @@ const Developer = () => {
                 <div>
                   <img src={reactJsLogo} alt="" />
                   <br />
-                  <a href="#">
+                  {/* <a href="#"> */}
+                  <a href="">
                     Hire NodeJs
                     <br />
                     Developer
@@ -76,7 +81,8 @@ const Developer = () => {
                 <div>
                   <img src={reactJsLogo} alt="" />
                   <br />
-                  <a href="#">
+                  {/* <a href="#"> */}
+                  <a href="">
                     Hire Python
                     <br />
                     Developer
@@ -85,7 +91,8 @@ const Developer = () => {
                 <div>
                   <img src={reactJsLogo} alt="" />
                   <br />
-                  <a href="#">
+                  {/* <a href="#"> */}
+                  <a href="">
                     Hire ROR
                     <br />
                     Developer
