@@ -32,15 +32,18 @@ const CareerHeader = () => {
                                 <img src={aboutWhy} alt="about-why" className='chcli-img' />
                                 <div className="chcli-top">
                                     <img src={teamIcon1} alt="team icon" className='chclit-img' />
-                                    <p className='chclit-p'>Team of 150+ IT Professionals</p>
+                                    {/* <p className='chclit-p'>Team of 150+ IT Professionals</p> */}
+                                    <p className='chclit-p'>Team of 15+ IT Professionals</p>
                                     <div className="chclit-div">
                                         <img src={teams} alt="teams" className='chclitd-img' />
-                                        <p className='chclitd-p'>150+</p>
+                                        {/* <p className='chclitd-p'>150+</p> */}
+                                        <p className='chclitd-p'>15+</p>
                                     </div>
                                 </div>
                                 <div className="chcli-center">
                                     <img src={setting} alt="" className='chclic-img' />
-                                    <p className='chclic-p'>Working On 8 Technology</p>
+                                    {/* <p className='chclic-p'>Working On 8 Technology</p> */}
+                                    <p className='chclic-p'>Working On 6 Technology</p>
                                 </div>
                                 <div className="chcli-bottom">
                                     <img src={starDynamic} alt="" className='chclib-img' />

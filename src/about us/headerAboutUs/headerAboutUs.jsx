@@ -13,7 +13,8 @@ const HeaderAboutUs = () => {
                     <div className='hau-content'>
                         <div className='hauc-left'>
                             <img src={experianceStarIcon} alt="" />
-                            <h2>6 Years of experience</h2>
+                            {/* <h2>6 Years of experience</h2> */}
+                            <h2>1 Years of experience</h2>
                         </div>
                         <div className='hauc-center'>
                             <div className='haucc-main'>

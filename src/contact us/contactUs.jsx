@@ -113,7 +113,8 @@ const ContactUs = () => {
           {/* <img id="main-image" src={CuBgImage} alt="Main Image" /> */}
           <div id="overlay" className="overlay">
             <div className="content">
-              <h1>Our Global Presence</h1>
+              {/* <h1>Our Global Presence</h1> */}
+              <h1>Our Presence</h1>
               <div className='content1'>
                 <h2>India (HQ)</h2>
                 <p>Bangalore, Karnataka, India, 560008</p>
