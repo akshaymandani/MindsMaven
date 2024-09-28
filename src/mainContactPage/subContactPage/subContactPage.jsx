@@ -92,9 +92,9 @@ const SubContactPage = () => {
           <div>
             <section class="mapbox" data-mapbox>
               <figure>
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3721.2414701369016!2d72.78844997503471!3d21.142786580535283!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa10bffdb76d1dced%3A0xa50f4b6984dcc7ba!2sDigital%20Munkies!5e0!3m2!1sen!2sin!4v1708323602340!5m2!1sen!2sin"
-              //  style={{width="600", height="450"}} style={{border:0;}}
-                allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3721.2414701369016!2d72.78844997503471!3d21.142786580535283!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa10bffdb76d1dced%3A0xa50f4b6984dcc7ba!2sDigital%20Munkies!5e0!3m2!1sen!2sin!4v1708323602340!5m2!1sen!2sin"
+                  //  style={{width="600", height="450"}} style={{border:0;}}
+                  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 {/* <iframe
                   src=""
                   width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
@@ -103,7 +103,8 @@ const SubContactPage = () => {
             </section>
           </div>
           <div>
-            <h2>The Hire Hub</h2>
+            {/* <h2>The Hire Hub</h2> */}
+            <h2>MindsMaven IT Solutions</h2>
             <div>
               <h2>INDIA</h2>
               <address>412 , Avadh Arena, Vip Road, opp, Marvella Corriodor, Surat, Gujarat 395007</address>

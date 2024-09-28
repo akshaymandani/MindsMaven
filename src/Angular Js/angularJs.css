@@ -1,3 +1,11 @@
 /* body {
     font-family: "poppins", sans-serif;
 } */
+
+.AngularJsMain header {
+    z-index: 1000;
+}
+
+.AngularJsMain main {
+    z-index: -1;
+}

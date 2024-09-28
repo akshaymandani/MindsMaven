@@ -1,0 +1,119 @@
+.os-body {
+    width: 100%;
+    text-align: center;
+    /* margin-bottom: 200px; */
+}
+
+.os-body h3 {
+    font-weight: 600;
+    font-size: 34px;
+    color: #242424;
+    margin-bottom: 0;
+    clear: both;
+    line-height: 1.2;
+    margin-top: 0;
+    display: block;
+    margin-block-start: 1em;
+    /* margin-block-end: 1em; */
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    /* font-weight: bold; */
+    unicode-bidi: isolate;
+}
+
+.story-span {
+    display: inline-block;
+    margin: 5px auto 3px;
+    width: 175px;
+    height: 2px;
+    background: radial-gradient(50% 151250% at 50% -100%, #d96122 0, rgba(255, 255, 255, 0) 100%);
+}
+
+.os-main {
+    justify-content: space-evenly;
+    position: relative;
+    padding-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    /* margin-right: -15px;
+    margin-left: -15px; */
+    /* margin-top: 45px; */
+}
+
+@media screen and (max-width: 945px) {
+    .os-main {
+        gap: 80px;
+    }
+}
+
+/* .os-main::before {
+    position: absolute;
+    content: "";
+    height: 40px;
+    width: 100%;
+ //   max-width: 644px;
+    max-width: 670px;
+    border: 3px solid #ececec;
+    border-bottom: 0;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+} */
+
+/* .os-main [class*=osc-body]:first-child::after {
+    position: absolute;
+    content: "";
+    height: 22px;
+    width: 22px;
+    background-color: #ececec;
+    top: -44px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+    border-radius: 100%;
+} */
+
+/* .os-main [class*=osc-body]:last-child::after {
+    position: absolute;
+    content: "";
+    height: 22px;
+    width: 22px;
+    background-color: #ececec;
+    top: -44px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+    border-radius: 100%;
+} */
+
+/* .os-main::after {
+    position: absolute;
+    content: "";
+    width: 3px;
+    //height: 580px;
+   // height: 575px;
+    height: 41.5px;
+    background-color: #ececec;
+    top: -40px;
+ //   top: -30px;
+    left: 50%;
+    bottom: -30px;
+    transform: translateX(-50%);
+    z-index: 2;
+    border-radius: 5px;
+} */
+
+/* .os-lastDot {
+    position: absolute;
+    height: 22px;
+    width: 22px;
+    background-color: #ececec;
+ //   top: -16px;
+   // bottom: 40px;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+    border-radius: 100%;
+} */

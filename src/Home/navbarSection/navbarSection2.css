@@ -1,9 +1,9 @@
-.navbar {
+/* .navbar {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* padding: 10px 20px; */
+    //padding: 10px 20px;
 }
 
 .logo img {
@@ -45,12 +45,12 @@
     box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
     z-index: 1;
     margin-top: 10px;
-    /* padding: 12px; */
+    //padding: 12px;
     max-width: 100%;
     left: 0;
     right: 0;
     min-width: 50%;
-    /* Optional: Add some border-radius for rounded edges */
+    //Optional: Add some border-radius for rounded edges
 }
 
 .dropdown-content a {
@@ -68,16 +68,16 @@
     display: flex;
     gap: 2rem;
     justify-content: center;
-    /* Center the flex items */
+  //  Center the flex items
 }
 
-/* Individual columns inside the flex container */
+//Individual columns inside the flex container
 .dropdown-column {
     flex: 1;
     padding: 10px;
 }
 
-/* Heading styles inside the dropdown columns */
+//Heading styles inside the dropdown columns
 .dropdown-column h1 {
     font-size: 18px;
     margin-bottom: 10px;
@@ -125,7 +125,7 @@
     }
 }
 
-/* Mobile View CSS */
+//Mobile View CSS
 @media screen and (max-width: 780px) {
     .ns-body {
         background-color: white;
@@ -152,14 +152,14 @@
     .nav-links.active {
         display: flex;
         align-items: center;
-        /* Center align all items */
+    //    Center align all items
     }
 
     .nav-links li {
         width: 100%;
-        /* Ensure the list items take full width */
+  //      Ensure the list items take full width
         text-align: center;
-        /* Center align the text inside list items */
+//        Center align the text inside list items
     }
 
     .menu-icon {
@@ -173,23 +173,23 @@
     }
 
     .dropdown-content {
-        /* display: block; */
+      //  display: block;
         position: relative;
         box-shadow: none;
         padding: 0;
         max-width: 90%;
-        /* Control maximum width on mobile */
+    //    Control maximum width on mobile
         left: 50%;
-        /* Center horizontally */
+  //      Center horizontally
         transform: translateX(-50%);
-        /* Adjust for center positioning */
+//        Adjust for center positioning
     }
 
     .dropdown-flex {
         flex-direction: column;
-        /* Stack dropdown content vertically */
+      //  Stack dropdown content vertically
         align-items: center;
-        /* Center align dropdown content */
+    //    Center align dropdown content
     }
 
     .dropdown-column {
@@ -200,7 +200,7 @@
         padding: 12px;
         border-bottom: 1px solid #ddd;
         text-align: center;
-        /* Center align dropdown links */
+  //      Center align dropdown links
     }
 
     .dropdown-content a:last-child {
@@ -220,11 +220,11 @@
 }
 
 @media screen and (max-width: 768px) {
-    /* .dropdown-content {
-        display: none;
-    } */
+//    .dropdown-content {
+//        display: none;
+//    }
 
     .dropdown.open .dropdown-content {
         display: block;
     }
-}
+} */

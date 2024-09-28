@@ -1,0 +1,117 @@
+.mt-body {
+    width: 100%;
+    /* margin: 100px auto; */
+    padding: 50px 0;
+    background-color: #f6f6f6;
+    position: relative;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+/* .mt-body::after {
+    --wpr-bg-2a4baaae-0028-4ed5-856b-dd2b8aa63655: url(../../images/team_line_bg.png);
+}
+
+.mt-body::after {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: var(--wpr-bg-2a4baaae-0028-4ed5-856b-dd2b8aa63655) center no-repeat;
+    z-index: 1;
+    padding-top: 170px;
+    overflow: hidden;
+} */
+
+.mt-main {
+    width: 90%;
+    max-width: 1440px;
+    margin: auto;
+    position: relative;
+    z-index: 2;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.mt-top {
+    display: block;
+    margin: auto;
+    text-align: center;
+    unicode-bidi: isolate;
+    position: relative;
+    width: 100%;
+    /* padding-right: 15px;
+    padding-left: 15px; */
+    justify-content: center !important;
+    /* z-index: 2; */
+}
+
+@media (min-width: 1200px) {
+    .mt-top {
+        /* -ms-flex: 0 0 66.666667%; */
+        flex: 0 0 66.666667%;
+        max-width: 66.666667%;
+    }
+}
+
+@media screen and (min-width: 480px) {
+    .mt-top {
+        /* padding-left: 15px;
+        padding-right: 15px; */
+    }
+}
+
+.mt-top h3 {
+    font-weight: 600;
+    font-size: 34px;
+    color: #242424;
+    margin-bottom: 0;
+    line-height: 1.2;
+    /* margin-top: 0; */
+}
+
+.team-span {
+    display: inline-block;
+    margin: 5px auto 3px;
+    width: 150px;
+    height: 2px;
+    background: radial-gradient(50% 151250% at 50% -100%, #d96122 0, rgba(255, 255, 255, 0) 100%);
+}
+
+@media (max-width: 768px) {
+    .team-span {
+        width: 120px;
+    }
+}
+
+@media (max-width: 480px) {
+    .team-span {
+        width: 100px;
+    }
+}
+
+.mt-top p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #484848;
+    /* margin-bottom: 15px; */
+    text-align: center !important;
+    margin-bottom: 3rem !important;
+    /* margin-top: 45px; */
+    margin-top: 36px;
+}
+
+.mt-bottom {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    /* position: relative;
+    z-index: 2; */
+}

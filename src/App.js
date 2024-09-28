@@ -8,6 +8,12 @@ import ContactPage from "./mainContactPage/contactPage";
 import ReactJsMainPage from './React Js/reactJs';
 import AngularJsMainPage from "./Angular Js/angularJs";
 import Technology from './Technology/technology';
+import AboutUs from "./about us/aboutUs";
+import Careers from "./careers/careers";
+import NextJsMainPage from "./Next Js/nextJs";
+import NodeJsMainPage from "./Node Js/nodeJs";
+import FlutterMainPage from "./Flutter/flutter";
+import ReactNativeMainPage from "./React Native/reactNative";
 
 function App() {
   return (
@@ -18,10 +24,15 @@ function App() {
           <Route path="/contact" element={<ContactPage />} />
           <Route path="/react" element={<ReactJsMainPage />} />
           <Route path="/angular" element={<AngularJsMainPage />} />
+          <Route path="/next" element={<NextJsMainPage />} />
+          <Route path="/node" element={<NodeJsMainPage />} />
+          <Route path="/flutter" element={<FlutterMainPage />} />
+          <Route path="/reactnative" element={<ReactNativeMainPage />} />
           <Route path="/technology" element={<Technology />} />
           <Route path="/developer" element={<Developer />} />
           <Route path="/contactUs" element={<ContactUs />} />
-
+          <Route path="/aboutus" element={<AboutUs />} />
+          <Route path="/career" element={<Careers />} />
         </Routes>
       </BrowserRouter>
       {/* <BrowserRouter>

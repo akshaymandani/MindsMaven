@@ -1,0 +1,30 @@
+.Flutter {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.Flutter-h1 {
+    /* width: 60%; */
+    margin: auto;
+}
+
+.Flutter-p {
+    /* width: 80%; */
+    margin: auto;
+    margin: 30px auto;
+}
+
+.Flutter-btn {
+    cursor: pointer;
+    /* padding: 18px 20px; */
+    padding: 10px 15px;
+    /* font-size: 17px; */
+    font-size: 15px;
+    margin-top: 5px;
+    color: #ffffff;
+    background-color: #d96122;
+    border: none;
+    border-radius: 8px;
+}

@@ -19,7 +19,7 @@ import NavbarSection from '../Home/navbarSection/navbarSection';
 
 const AngularJsMainPage = () => {
   return (
-    <div>
+    <div className='AngularJsMain'>
       <header>
         <NavbarSection />
       </header>

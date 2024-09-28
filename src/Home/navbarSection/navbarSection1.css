@@ -507,7 +507,9 @@ body {
     font-family: Arial, sans-serif;
   } */
 
-.ns-app {
+/* Latest */
+
+/* .ns-app {
     display: flex;
     flex-direction: column;
 }
@@ -632,4 +634,4 @@ body {
     .services-dropdown {
         flex-direction: column;
     }
-}
+} */
