@@ -74,7 +74,7 @@ const NavbarSection = () => {
                                                                     </div>
                                                                 </Link>
                                                             </li>
-                                                            <li className='dcl-li'>
+                                                            {/* <li className='dcl-li'>
                                                                 <Link to="/" className='dcll-link'>
                                                                     <div className='dcll-main'>
                                                                         <div className='dcll-div'>
@@ -83,7 +83,7 @@ const NavbarSection = () => {
                                                                         <span className='dcll-span'>Life@MindsMaven IT Solutions</span>
                                                                     </div>
                                                                 </Link>
-                                                            </li>
+                                                            </li> */}
                                                         </ul>
                                                     </div>
                                                     <div className='dc-right'>
@@ -308,13 +308,13 @@ const NavbarSection = () => {
                                                         </div>
                                                     </Link>
                                                 </li>
-                                                <li className='sslc-li'>
+                                                {/* <li className='sslc-li'>
                                                     <Link to="/" className='sslc-link'>
                                                         <div className="sslc-div">
                                                             <FaFaceSmile className="sslc-icon" /> Life@MindsMaven IT Solutions
                                                         </div>
                                                     </Link>
-                                                </li>
+                                                </li> */}
                                             </ul>
                                         </div>
                                     )}
