@@ -42,9 +42,12 @@ const sitemapStream = new SitemapStream({ hostname: 'https://mindsmaven.in' });
 // Define your routes
 const links = [
     { url: '/', changefreq: 'daily', priority: 1.0 },
-    { url: '/about', changefreq: 'monthly', priority: 0.7 },
+    { url: '/aboutus', changefreq: 'monthly', priority: 0.7 },
     // { url: '/contact', changefreq: 'monthly', priority: 0.7 },
     // Add more URLs as needed
+    { url: '/react', changefreq: 'monthly', priority: 0.7 },
+    { url: '/angular', changefreq: 'monthly', priority: 0.7 },
+    // { url: '/about', changefreq: 'monthly', priority: 0.7 },
 ];
 
 // Write the links to the sitemap
