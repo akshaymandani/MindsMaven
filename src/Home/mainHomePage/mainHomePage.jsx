@@ -5,6 +5,7 @@ import MainServicePage from '../servicePage/mainServicePage';
 import Technology from '../../Technology/technology';
 import ContactUs from '../../contact us/contactUs';
 import Footer from '../../footer/footer';
+import MainExperianceSection from '../mainExperianceSection/mainExperianceSection';
 // import MMLogo from "../../images/MindsMaven Logo.png"
 
 const MainHomePage = () => {
@@ -40,6 +41,7 @@ const MainHomePage = () => {
           </header>
           <main>
             <MainServicePage />
+            <MainExperianceSection />
             <Technology />
             <ContactUs />
           </main>

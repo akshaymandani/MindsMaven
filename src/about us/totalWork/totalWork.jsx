@@ -42,14 +42,14 @@ const TotalWork = () => {
                         <div className='twr-div'>
                             <div className='twrd-div'>
                                 <img className='Countries-img' src={experiancedFreelancing} alt="" />
-                                <h2>5+</h2>
+                                <h2>15+</h2>
                                 <h3>Countries Served</h3>
                             </div>
                         </div>
                         <div className='twr-div'>
                             <div className='twrd-div'>
                                 <img className='YearsOfExperience-img' src={experiancedYears} alt="" />
-                                <h2>2+</h2>
+                                <h2>1+</h2>
                                 <h3>Years Of Experience</h3>
                             </div>
                         </div>

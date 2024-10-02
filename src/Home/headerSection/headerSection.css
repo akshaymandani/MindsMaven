@@ -67,6 +67,8 @@
 } */
 
 .hsc-link {
+    width: 100%;
+    color: #fff;
     text-decoration: none;
     /* width: 100px; */
 }

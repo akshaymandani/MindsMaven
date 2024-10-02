@@ -37,7 +37,8 @@ const HeaderSection = () => {
           <h1>Software Development Company & IT Consultancy Serving <span>Start-UP</span></h1>
           <p>With the help of Innovation and Technology, We give you the power to change the world with your ideas.</p>
           {/* <a href="#">Schedule a meeting</a> */}
-          <Link to="/" className='hsc-link'><div className='hsc-div'>Schedule a meeting</div></Link>
+          {/* <Link to="/" className='hsc-link'><div className='hsc-div'>Schedule a meeting</div></Link> */}
+          <div className='hsc-div'><Link to="/" className='hsc-link'>Schedule a meeting</Link></div>
         </div>
       </div>
     </div>
