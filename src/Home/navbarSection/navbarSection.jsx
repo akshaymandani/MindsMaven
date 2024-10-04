@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { Link } from "react-router-dom";
-import MMLogo from "../../images/MindsMaven Logo.png";
+// import MMLogo from "../../images/MindsMaven Logo.png";
+import MMLogo from "../../images/MindsMavenLogo.png";
 import "./navbarSection.css"
 import headerGroup from "../../images/header-group.svg"
 import headerBrifcase from "../../images/header-brifcase.svg"

@@ -22,6 +22,8 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    /* padding-top: 150px; */
+    padding-top: 100px;
     top: 0;
     left: 0;
     right: 0;
