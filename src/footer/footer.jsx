@@ -32,7 +32,8 @@ const Footer = () => {
                 <icon>
                   <MdMail />
                 </icon>&nbsp;
-                contact@mindsmaven.in
+                {/* contact@mindsmaven.in */}
+                hr@mindsmaven.in
               </a>
             </p>
             <p className="fi">
@@ -67,7 +68,8 @@ const Footer = () => {
                 <icon>
                   <MdMail />
                 </icon>&nbsp;
-                contact@mindsmaven.in
+                {/* contact@mindsmaven.in */}
+                solutions@mindsmaven.in
               </a>
             </p>
             <p className="fi">
