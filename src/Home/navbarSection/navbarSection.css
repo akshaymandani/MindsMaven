@@ -99,6 +99,7 @@
     margin: auto !important;
     display: block;
     unicode-bidi: isolate;
+    z-index: 99;
 }
 
 .nav-menu {
@@ -1061,6 +1062,7 @@
     align-self: center !important;
     /* display: inline-block !important; */
     display: inline-block;
+    z-index: 99;
 }
 
 /* @media (max-width: 874px) {

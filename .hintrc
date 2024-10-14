@@ -3,15 +3,6 @@
     "development"
   ],
   "hints": {
-    "compat-api/css": [
-      "default",
-      {
-        "ignore": [
-          "position: sticky",
-          "-webkit-mask",
-          "text-align: -webkit-match-parent"
-        ]
-      }
-    ]
+    "compat-api/css": "off"
   }
 }

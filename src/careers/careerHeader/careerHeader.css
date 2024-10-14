@@ -3,7 +3,14 @@
     background: #F6F6F6;
     position: relative;
     padding-bottom: 100px;
-    margin-bottom: 100px;
+    /* margin-bottom: 100px; */
+}
+
+@media (min-width: 769px) {
+    .ch-body {
+        margin-top: -100px;
+        padding-top: 100px;
+    }
 }
 
 @media only screen and (max-width: 768px) {

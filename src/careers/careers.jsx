@@ -5,6 +5,10 @@ import NavbarSection from '../Home/navbarSection/navbarSection';
 import Footer from '../footer/footer';
 import ContactUs from '../contact us/contactUs';
 import NewsLetter from '../newsLetter/newsLetter';
+import CareerFresher from './careerFresher/careerFresher';
+import CareerApplyPage from './careerApplyPage/careerApplyPage';
+import CareerCurrentOpening from './careerCurrentOpening/careerCurrentOpening';
+import CareerCV from './careerCV/careerCV';
 
 const Careers = () => {
   return (
@@ -14,6 +18,11 @@ const Careers = () => {
       </header>
       <main>
         <CareerHeader />
+        <CareerCV />
+        <CareerCurrentOpening />
+        <CareerFresher />
+        {/* <CareerCurrentOpening /> */}
+        <CareerApplyPage />
         <ContactUs />
         <NewsLetter />
       </main>
